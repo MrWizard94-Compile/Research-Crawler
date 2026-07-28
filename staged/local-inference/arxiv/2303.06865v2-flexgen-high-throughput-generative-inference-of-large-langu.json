@@ -1,0 +1,30 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU",
+  "url": "http://arxiv.org/abs/2303.06865v2",
+  "why": "arXiv match: high throughput generative inference single GPU offloading",
+  "meta": {
+    "authors": [
+      "Ying Sheng",
+      "Lianmin Zheng",
+      "Binhang Yuan",
+      "Zhuohan Li",
+      "Max Ryabinin",
+      "Daniel Y. Fu",
+      "Zhiqiang Xie",
+      "Beidi Chen",
+      "Clark Barrett",
+      "Joseph E. Gonzalez",
+      "Percy Liang",
+      "Christopher Ré",
+      "Ion Stoica",
+      "Ce Zhang"
+    ],
+    "published": "2023-03-13T05:19:28Z"
+  },
+  "content": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU\n\nAuthors: Ying Sheng, Lianmin Zheng, Binhang Yuan, Zhuohan Li, Max Ryabinin, Daniel Y. Fu, Zhiqiang Xie, Beidi Chen, Clark Barrett, Joseph E. Gonzalez, Percy Liang, Christopher Ré, Ion Stoica, Ce Zhang\nPublished: 2023-03-13T05:19:28Z\narXiv: http://arxiv.org/abs/2303.06865v2\n\nAbstract:\nThe high computational and memory requirements of large language model (LLM) inference make it feasible only with multiple high-end accelerators. Motivated by the emerging demand for latency-insensitive tasks with batched processing, this paper initiates the study of high-throughput LLM inference using limited resources, such as a single commodity GPU. We present FlexGen, a high-throughput generation engine for running LLMs with limited GPU memory. FlexGen can be flexibly configured under various hardware resource constraints by aggregating memory and computation from the GPU, CPU, and disk. By solving a linear programming problem, it searches for efficient patterns to store and access tensors. FlexGen further compresses the weights and the attention cache to 4 bits with negligible accuracy loss. These techniques enable FlexGen to have a larger space of batch size choices and thus significantly increase maximum throughput. As a result, when running OPT-175B on a single 16GB GPU, FlexGen achieves significantly higher throughput compared to state-of-the-art offloading systems, reaching a generation throughput of 1 token/s for the first time with an effective batch size of 144. On the HELM benchmark, FlexGen can benchmark a 30B model with a 16GB GPU on 7 representative sub-scenarios in 21 hours. The code is available at https://github.com/FMInference/FlexGen",
+  "fetched_at": "2026-07-13T01:41:33+00:00"
+}

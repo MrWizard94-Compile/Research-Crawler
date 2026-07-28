@@ -1,0 +1,17 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Multi-Emitter MAP-Elites: Improving quality, diversity and convergence speed with heterogeneous sets of emitters",
+  "url": "http://arxiv.org/abs/2007.05352v2",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Antoine Cully"
+    ],
+    "published": "2020-07-10T12:45:02Z"
+  },
+  "content": "Multi-Emitter MAP-Elites: Improving quality, diversity and convergence speed with heterogeneous sets of emitters\n\nAuthors: Antoine Cully\nPublished: 2020-07-10T12:45:02Z\narXiv: http://arxiv.org/abs/2007.05352v2\n\nAbstract:\nQuality-Diversity (QD) optimisation is a new family of learning algorithms that aims at generating collections of diverse and high-performing solutions. Among those algorithms, the recently introduced Covariance Matrix Adaptation MAP-Elites (CMA-ME) algorithm proposes the concept of emitters, which uses a predefined heuristic to drive the algorithm's exploration. This algorithm was shown to outperform MAP-Elites, a popular QD algorithm that has demonstrated promising results in numerous applications. In this paper, we introduce Multi-Emitter MAP-Elites (ME-MAP-Elites), an algorithm that directly extends CMA-ME and improves its quality, diversity and data efficiency. It leverages the diversity of a heterogeneous set of emitters, in which each emitter type improves the optimisation process in different ways. A bandit algorithm dynamically finds the best selection of emitters depending on the current situation. We evaluate the performance of ME-MAP-Elites on six tasks, ranging from standard optimisation problems (in 100 dimensions) to complex locomotion tasks in robotics. Our comparisons against CMA-ME and MAP-Elites show that ME-MAP-Elites is faster at providing collections of solutions that are significantly more diverse and higher performing. Moreover, in cases where no fruitful synergy can be found between the different emitters, ME-MAP-Elites is equivalent to the best of the compared algorithms.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

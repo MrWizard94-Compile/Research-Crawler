@@ -1,0 +1,23 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery",
+  "url": "http://arxiv.org/abs/2406.10833v3",
+  "why": "arXiv match: large language model scientific hypothesis discovery",
+  "meta": {
+    "authors": [
+      "Yu Zhang",
+      "Xiusi Chen",
+      "Bowen Jin",
+      "Sheng Wang",
+      "Shuiwang Ji",
+      "Wei Wang",
+      "Jiawei Han"
+    ],
+    "published": "2024-06-16T08:03:24Z"
+  },
+  "content": "A Comprehensive Survey of Scientific Large Language Models and Their Applications in Scientific Discovery\n\nAuthors: Yu Zhang, Xiusi Chen, Bowen Jin, Sheng Wang, Shuiwang Ji, Wei Wang, Jiawei Han\nPublished: 2024-06-16T08:03:24Z\narXiv: http://arxiv.org/abs/2406.10833v3\n\nAbstract:\nIn many scientific fields, large language models (LLMs) have revolutionized the way text and other modalities of data (e.g., molecules and proteins) are handled, achieving superior performance in various applications and augmenting the scientific discovery process. Nevertheless, previous surveys on scientific LLMs often concentrate on one or two fields or a single modality. In this paper, we aim to provide a more holistic view of the research landscape by unveiling cross-field and cross-modal connections between scientific LLMs regarding their architectures and pre-training techniques. To this end, we comprehensively survey over 260 scientific LLMs, discuss their commonalities and differences, as well as summarize pre-training datasets and evaluation tasks for each field and modality. Moreover, we investigate how LLMs have been deployed to benefit scientific discovery. Resources related to this survey are available at https://github.com/yuzhimanhua/Awesome-Scientific-Language-Models.",
+  "fetched_at": "2026-07-13T01:43:09+00:00"
+}

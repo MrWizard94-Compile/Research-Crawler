@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Self-Referential Quality Diversity Through Differential Map-Elites",
+  "url": "http://arxiv.org/abs/2107.04964v1",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Tae Jong Choi",
+      "Julian Togelius"
+    ],
+    "published": "2021-07-11T04:31:10Z"
+  },
+  "content": "Self-Referential Quality Diversity Through Differential Map-Elites\n\nAuthors: Tae Jong Choi, Julian Togelius\nPublished: 2021-07-11T04:31:10Z\narXiv: http://arxiv.org/abs/2107.04964v1\n\nAbstract:\nDifferential MAP-Elites is a novel algorithm that combines the illumination capacity of CVT-MAP-Elites with the continuous-space optimization capacity of Differential Evolution. The algorithm is motivated by observations that illumination algorithms, and quality-diversity algorithms in general, offer qualitatively new capabilities and applications for evolutionary computation yet are in their original versions relatively unsophisticated optimizers. The basic Differential MAP-Elites algorithm, introduced for the first time here, is relatively simple in that it simply combines the operators from Differential Evolution with the map structure of CVT-MAP-Elites. Experiments based on 25 numerical optimization problems suggest that Differential MAP-Elites clearly outperforms CVT-MAP-Elites, finding better-quality and more diverse solutions.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

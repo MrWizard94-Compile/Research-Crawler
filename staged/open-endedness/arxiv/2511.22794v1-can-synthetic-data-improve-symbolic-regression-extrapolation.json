@@ -1,0 +1,20 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Can Synthetic Data Improve Symbolic Regression Extrapolation Performance?",
+  "url": "http://arxiv.org/abs/2511.22794v1",
+  "why": "arXiv match: symbolic regression discovering equations from data",
+  "meta": {
+    "authors": [
+      "Fitria Wulandari Ramlan",
+      "Colm O'Riordan",
+      "Gabriel Kronberger",
+      "James McDermott"
+    ],
+    "published": "2025-11-27T22:52:13Z"
+  },
+  "content": "Can Synthetic Data Improve Symbolic Regression Extrapolation Performance?\n\nAuthors: Fitria Wulandari Ramlan, Colm O'Riordan, Gabriel Kronberger, James McDermott\nPublished: 2025-11-27T22:52:13Z\narXiv: http://arxiv.org/abs/2511.22794v1\n\nAbstract:\nMany machine learning models perform well when making predictions within the training data range, but often struggle when required to extrapolate beyond it. Symbolic regression (SR) using genetic programming (GP) can generate flexible models but is prone to unreliable behaviour in extrapolation. This paper investigates whether adding synthetic data can help improve performance in such cases. We apply Kernel Density Estimation (KDE) to identify regions in the input space where the training data is sparse. Synthetic data is then generated in those regions using a knowledge distillation approach: a teacher model generates predictions on new input points, which are then used to train a student model. We evaluate this method across six benchmark datasets, using neural networks (NN), random forests (RF), and GP both as teacher models (to generate synthetic data) and as student models (trained on the augmented data). Results show that GP models can often improve when trained on synthetic data, especially in extrapolation areas. However, the improvement depends on the dataset and teacher model used. The most important improvements are observed when synthetic data from GPe is used to train GPp in extrapolation regions. Changes in interpolation areas show only slight changes. We also observe heterogeneous errors, where model performance varies across different regions of the input space. Overall, this approach offers a practical solution for better extrapolation. Note: An earlier version of this work appeared in the GECCO 2025 Workshop on Symbolic Regression. This arXiv version corrects several parts of the original submission.",
+  "fetched_at": "2026-07-13T01:43:04+00:00"
+}

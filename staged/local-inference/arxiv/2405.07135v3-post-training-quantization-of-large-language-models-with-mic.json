@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Post Training Quantization of Large Language Models with Microscaling Formats",
+  "url": "http://arxiv.org/abs/2405.07135v3",
+  "why": "arXiv match: post-training quantization large language models GPTQ AWQ",
+  "meta": {
+    "authors": [
+      "Sayeh Sharify",
+      "Utkarsh Saxena",
+      "Zifei Xu",
+      "Wanzin Yazar",
+      "Ilya Soloveychik",
+      "Xin Wang"
+    ],
+    "published": "2024-05-12T02:15:26Z"
+  },
+  "content": "Post Training Quantization of Large Language Models with Microscaling Formats\n\nAuthors: Sayeh Sharify, Utkarsh Saxena, Zifei Xu, Wanzin Yazar, Ilya Soloveychik, Xin Wang\nPublished: 2024-05-12T02:15:26Z\narXiv: http://arxiv.org/abs/2405.07135v3\n\nAbstract:\nLarge Language Models (LLMs) have distinguished themselves with outstanding performance in complex language modeling tasks, yet they come with significant computational and storage challenges. This paper explores the potential of quantization to mitigate these challenges. We systematically study the combined application of three well-known post-training techniques, SmoothQuant, AWQ, and GPTQ, and provide a comprehensive analysis of their interactions and implications for advancing LLM quantization. We enhance the versatility of these methods by enabling quantization to microscaling (MX) formats, extending the applicability of these PTQ algorithms beyond their original fixed-point format targets. We show that combining different PTQ methods enables us to quantize models to 4-bit weights and 8-bit activations using the MXINT format with negligible accuracy loss compared to the uncompressed baseline.",
+  "fetched_at": "2026-07-13T01:41:19+00:00"
+}

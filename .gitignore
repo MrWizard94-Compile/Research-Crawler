@@ -1,0 +1,11 @@
+# Generated Python bytecode and credentials are local-only.
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/

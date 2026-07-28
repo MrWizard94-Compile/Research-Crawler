@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "WKVQuant: Quantizing Weight and Key/Value Cache for Large Language Models Gains More",
+  "url": "http://arxiv.org/abs/2402.12065v2",
+  "why": "arXiv match: post-training quantization large language models GPTQ AWQ",
+  "meta": {
+    "authors": [
+      "Yuxuan Yue",
+      "Zhihang Yuan",
+      "Haojie Duanmu",
+      "Sifan Zhou",
+      "Jianlong Wu",
+      "Liqiang Nie"
+    ],
+    "published": "2024-02-19T11:33:21Z"
+  },
+  "content": "WKVQuant: Quantizing Weight and Key/Value Cache for Large Language Models Gains More\n\nAuthors: Yuxuan Yue, Zhihang Yuan, Haojie Duanmu, Sifan Zhou, Jianlong Wu, Liqiang Nie\nPublished: 2024-02-19T11:33:21Z\narXiv: http://arxiv.org/abs/2402.12065v2\n\nAbstract:\nLarge Language Models (LLMs) face significant deployment challenges due to their substantial memory requirements and the computational demands of auto-regressive text generation process. This paper addresses these challenges by focusing on the quantization of LLMs, a technique that reduces memory consumption by converting model parameters and activations into low-bit integers. We critically analyze the existing quantization approaches, identifying their limitations in balancing the accuracy and efficiency of the quantized LLMs. To advance beyond these limitations, we propose WKVQuant, a PTQ framework especially designed for quantizing weights and the key/value (KV) cache of LLMs. Specifically, we incorporates past-only quantization to improve the computation of attention. Additionally, we introduce two-dimensional quantization strategy to handle the distribution of KV cache, along with a cross-block reconstruction regularization for parameter optimization. Experiments show that WKVQuant achieves almost comparable memory savings to weight-activation quantization, while also approaching the performance of weight-only quantization.",
+  "fetched_at": "2026-07-13T01:41:19+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "github",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "Python",
+  "title": "resibots/pymap_elites",
+  "url": "https://github.com/resibots/pymap_elites",
+  "why": "the canonical minimal MAP-Elites (Mouret) reference",
+  "ref": "master/README.md",
+  "meta": {
+    "stars": 99,
+    "description": "map elites python reference implementation",
+    "language": "Python",
+    "topics": []
+  },
+  "content": "# Python3 Map-Elites\nThis repository contains \"reference implementations\" of:\n- CVT-MAP-Elites (Vassiliades, Chatzilygeroudis, Mouret, 2017)\n- Multitask-MAP-Elites (Mouret and Maguire, 2020)\n\nCVT-MAP-Elites can be used instead of the standard MAP-Elites described in:\nMouret JB, Clune J. Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909. 2015 Apr 20.\n\nThe general philosophy is to provide implementations (1 page of code) that are easy to transform and include in your own research. This means that there is some code redundancy between the algorithms. If you are interested in a more advanced framework:\n- Sferes (C++): https://github.com/sferes2/sferes2 \n- QDPy (Python) https://pypi.org/project/qdpy/\n\nBy default, the evaluations are parallelized on each core (using the multiprocessing package).\n\n## Dependencies\n\n- python3\n- numpy\n- sklearn (scikit-learn) [for CVT]\n- matplotlib (optional, for plotting)\n\n## References:\nIf you use this code in a scientific paper, please cite:\n\n**Main paper**: Mouret JB, Clune J. Illuminating search spaces by mapping elites. arXiv preprint arXiv:1504.04909. 2015 Apr 20.\n\n**CVT Map-Elites**: Vassiliades V, Chatzilygeroudis K, Mouret JB. Using centroidal voronoi tessellations to scale up the multi-dimensional archive of phenotypic elites algorithm. IEEE Transactions on Evolutionary Computation. 2017 Aug 3.\n\n**Variation operator**: Vassiliades V, Mouret JB. Discovering the Elite Hypervolume by Leveraging Interspecies Correlation. Proc. of GECCO. 2018.\n\n**Multitask-MAP-Elites**: Mouret JB, Maguire G. Quality Diversity for Multi-task Optimization. Proc of GECCO. 2020.\n\n\n## Basic usage\n(you need to have the map_elites module map_elites in your Python path)\n\n```python\nimport map_elites.cvt as cvt_map_elites\n\narchive = cvt_map_elites.compute(2, 10, rastrigin, n_niches=10000, max_evals=2e6, log_file=open('cvt.dat', 'w'))\n```\nWhere `2` is the dimensionality of the map, ``10`` is the dimensionality of the genotype, ``n_niches`` is the number of niches, and ``max_evals`` is the number of evaluations. You can also pass an optional `params` argument to tune a few parameters. Here are the default values:\n\n```\ndefault_params = \\\n    {\n        # more of this -> higher-quality CVT\n        \"cvt_samples\": 25000,\n        # we evaluate in batches to paralleliez\n        \"batch_size\": 100,\n        # proportion of niches to be filled before starting\n        \"random_init\": 0.1,\n        # batch for random initialization\n        \"random_init_batch\": 100,\n        # when to write results (one generation = one batch)\n        \"dump_period\": 10000,\n        # do we use several cores?\n        \"parallel\": True,\n        # do we cache the result of CVT and reuse?\n        \"cvt_use_cache\": True,\n        # min/max of parameters\n        \"min\": 0,\n        \"max\": 1,\n    }\n```\n\nSee the `examples` directory for a few examples.\n",
+  "fetched_at": "2026-07-13T01:42:00+00:00"
+}

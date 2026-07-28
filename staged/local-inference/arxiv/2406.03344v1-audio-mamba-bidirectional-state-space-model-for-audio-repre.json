@@ -1,0 +1,20 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning",
+  "url": "http://arxiv.org/abs/2406.03344v1",
+  "why": "arXiv match: Mamba selective state space model language",
+  "meta": {
+    "authors": [
+      "Mehmet Hamza Erol",
+      "Arda Senocak",
+      "Jiu Feng",
+      "Joon Son Chung"
+    ],
+    "published": "2024-06-05T15:00:59Z"
+  },
+  "content": "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning\n\nAuthors: Mehmet Hamza Erol, Arda Senocak, Jiu Feng, Joon Son Chung\nPublished: 2024-06-05T15:00:59Z\narXiv: http://arxiv.org/abs/2406.03344v1\n\nAbstract:\nTransformers have rapidly become the preferred choice for audio classification, surpassing methods based on CNNs. However, Audio Spectrogram Transformers (ASTs) exhibit quadratic scaling due to self-attention. The removal of this quadratic self-attention cost presents an appealing direction. Recently, state space models (SSMs), such as Mamba, have demonstrated potential in language and vision tasks in this regard. In this study, we explore whether reliance on self-attention is necessary for audio classification tasks. By introducing Audio Mamba (AuM), the first self-attention-free, purely SSM-based model for audio classification, we aim to address this question. We evaluate AuM on various audio datasets - comprising six different benchmarks - where it achieves comparable or better performance compared to well-established AST model.",
+  "fetched_at": "2026-07-13T01:41:24+00:00"
+}

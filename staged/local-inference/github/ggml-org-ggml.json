@@ -1,0 +1,23 @@
+{
+  "source": "github",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "C++",
+  "title": "ggml-org/ggml",
+  "url": "https://github.com/ggml-org/ggml",
+  "why": "the tensor library under llama.cpp; GGUF + quant kernels",
+  "ref": "master/README.md",
+  "meta": {
+    "stars": 14983,
+    "description": "Tensor library for machine learning",
+    "language": "C++",
+    "topics": [
+      "automatic-differentiation",
+      "large-language-models",
+      "machine-learning",
+      "tensor-algebra"
+    ]
+  },
+  "content": "# ggml\n\n[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)\n\nTensor library for machine learning\n\n***Note that this project is under active development. \\\nSome of the development is currently happening in the [llama.cpp](https://github.com/ggerganov/llama.cpp) and [whisper.cpp](https://github.com/ggerganov/whisper.cpp) repos***\n\n## Features\n\n- Low-level cross-platform implementation\n- Integer quantization support\n- Broad hardware support\n- Automatic differentiation\n- ADAM and L-BFGS optimizers\n- No third-party dependencies\n- Zero memory allocations during runtime\n\n## Build\n\n```bash\ngit clone https://github.com/ggml-org/ggml\ncd ggml\n\n# install python dependencies in a virtual environment\npython3.10 -m venv .venv\nsource .venv/bin/activate\npip install -r requirements.txt\n\n# build the examples\nmkdir build && cd build\ncmake ..\ncmake --build . --config Release -j 8\n```\n\n## GPT inference (example)\n\n```bash\n# run the GPT-2 small 117M model\n../examples/gpt-2/download-ggml-model.sh 117M\n./bin/gpt-2-backend -m models/gpt-2-117M/ggml-model.bin -p \"This is an example\"\n```\n\nFor more information, checkout the corresponding programs in the [examples](examples) folder.\n\n## Resources\n\n- [Introduction to ggml](https://huggingface.co/blog/introduction-to-ggml)\n- [The GGUF file format](https://github.com/ggerganov/ggml/blob/master/docs/gguf.md)\n",
+  "fetched_at": "2026-07-13T01:39:50+00:00"
+}

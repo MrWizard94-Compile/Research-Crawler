@@ -1,0 +1,23 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Evolutionary Optimization of Physics-Informed Neural Networks: Advancing Generalizability by the Baldwin Effect",
+  "url": "http://arxiv.org/abs/2312.03243v4",
+  "why": "arXiv match: novelty search open-ended evolutionary computation",
+  "meta": {
+    "authors": [
+      "Jian Cheng Wong",
+      "Chin Chun Ooi",
+      "Abhishek Gupta",
+      "Pao-Hsiung Chiu",
+      "Joshua Shao Zheng Low",
+      "My Ha Dao",
+      "Yew-Soon Ong"
+    ],
+    "published": "2023-12-06T02:31:12Z"
+  },
+  "content": "Evolutionary Optimization of Physics-Informed Neural Networks: Advancing Generalizability by the Baldwin Effect\n\nAuthors: Jian Cheng Wong, Chin Chun Ooi, Abhishek Gupta, Pao-Hsiung Chiu, Joshua Shao Zheng Low, My Ha Dao, Yew-Soon Ong\nPublished: 2023-12-06T02:31:12Z\narXiv: http://arxiv.org/abs/2312.03243v4\n\nAbstract:\nPhysics-informed neural networks (PINNs) are at the forefront of scientific machine learning, making possible the creation of machine intelligence that is cognizant of physical laws and able to accurately simulate them. However, today's PINNs are often trained for a single physics task and require computationally expensive re-training for each new task, even for tasks from similar physics domains. To address this limitation, this paper proposes a pioneering approach to advance the generalizability of PINNs through the framework of Baldwinian evolution. Drawing inspiration from the neurodevelopment of precocial species that have evolved to learn, predict and react quickly to their environment, we envision PINNs that are pre-wired with connection strengths inducing strong biases towards efficient learning of physics. A novel two-stage stochastic programming formulation coupling evolutionary selection pressure (based on proficiency over a distribution of physics tasks) with lifetime learning (to specialize on a sampled subset of those tasks) is proposed to instantiate the Baldwin effect. The evolved Baldwinian-PINNs demonstrate fast and physics-compliant prediction capabilities across a range of empirically challenging problem instances with more than an order of magnitude improvement in prediction accuracy at a fraction of the computation cost compared to state-of-the-art gradient-based meta-learning methods. For example, when solving the diffusion-reaction equation, a 70x improvement in accuracy was obtained while taking 700x less computational time. This paper thus marks a leap forward in the meta-learning of PINNs as generalizable physics solvers. Sample codes are available at https://github.com/chiuph/Baldwinian-PINN.",
+  "fetched_at": "2026-07-13T01:42:52+00:00"
+}

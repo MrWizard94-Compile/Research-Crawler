@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Component-Aware Self-Speculative Decoding in Hybrid Language Models",
+  "url": "http://arxiv.org/abs/2605.01106v1",
+  "why": "arXiv match: speculative decoding large language model acceleration",
+  "meta": {
+    "authors": [
+      "Hector Borobia",
+      "Elies Seguí-Mas",
+      "Guillermina Tormo-Carbó"
+    ],
+    "published": "2026-05-01T21:25:25Z"
+  },
+  "content": "Component-Aware Self-Speculative Decoding in Hybrid Language Models\n\nAuthors: Hector Borobia, Elies Seguí-Mas, Guillermina Tormo-Carbó\nPublished: 2026-05-01T21:25:25Z\narXiv: http://arxiv.org/abs/2605.01106v1\n\nAbstract:\nSpeculative decoding accelerates autoregressive inference by drafting candidate tokens with a fast model and verifying them in parallel with the target. Self-speculative methods avoid the need for an external drafter but have been studied exclusively in homogeneous Transformer architectures. We introduce component-aware self-speculative decoding, the first method to exploit the internal architectural heterogeneity of hybrid language models, isolating the SSM/linear-attention subgraph as a zero-cost internal draft. We evaluate this on two architecturally distinct hybrid families: Falcon-H1 (parallel: Mamba-2 + attention per layer) and Qwen3.5 (sequential: interleaved linear and attention layers), with a pure Transformer control (Qwen2.5). Parallel hybrids achieve acceptance rates of alpha = 0.68 at draft length k=2 under greedy decoding, while sequential hybrids yield only alpha = 0.038 -- an 18x gap attributable to how each architecture integrates its components. The property is scale-invariant: Falcon-H1 at 3B reproduces the rates observed at 0.5B. We further show that perplexity degradation from a companion ablation study predicts speculative viability without running speculative decoding: a 3.15x ratio (Falcon) maps to alpha = 0.37 at k=4, while 81.96x (Qwen) maps to alpha = 0.019. For sequential hybrids, generic LayerSkip achieves 12x higher acceptance rates than the component-aware strategy. The composition pattern of hybrid models -- not merely the presence of alternative components -- determines whether component-level self-speculation is viable.",
+  "fetched_at": "2026-07-13T01:41:28+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "MoE-Gen: High-Throughput MoE Inference on a Single GPU with Module-Based Batching",
+  "url": "http://arxiv.org/abs/2503.09716v1",
+  "why": "arXiv match: high throughput generative inference single GPU offloading",
+  "meta": {
+    "authors": [
+      "Tairan Xu",
+      "Leyang Xue",
+      "Zhan Lu",
+      "Adrian Jackson",
+      "Luo Mai"
+    ],
+    "published": "2025-03-12T18:08:01Z"
+  },
+  "content": "MoE-Gen: High-Throughput MoE Inference on a Single GPU with Module-Based Batching\n\nAuthors: Tairan Xu, Leyang Xue, Zhan Lu, Adrian Jackson, Luo Mai\nPublished: 2025-03-12T18:08:01Z\narXiv: http://arxiv.org/abs/2503.09716v1\n\nAbstract:\nThis paper presents MoE-Gen, a high-throughput MoE inference system optimized for single-GPU execution. Existing inference systems rely on model-based or continuous batching strategies, originally designed for interactive inference, which result in excessively small batches for MoE's key modules-attention and expert modules-leading to poor throughput. To address this, we introduce module-based batching, which accumulates tokens in host memory and dynamically launches large batches on GPUs to maximize utilization. Additionally, we optimize the choice of batch sizes for each module in an MoE to fully overlap GPU computation and communication, maximizing throughput. Evaluation demonstrates that MoE-Gen achieves 8-31x higher throughput compared to state-of-the-art systems employing model-based batching (FlexGen, MoE-Lightning, DeepSpeed), and offers even greater throughput improvements over continuous batching systems (e.g., vLLM and Ollama) on popular MoE models (DeepSeek and Mixtral) across offline inference tasks. MoE-Gen's source code is publicly available at https://github.com/EfficientMoE/MoE-Gen",
+  "fetched_at": "2026-07-13T01:41:33+00:00"
+}

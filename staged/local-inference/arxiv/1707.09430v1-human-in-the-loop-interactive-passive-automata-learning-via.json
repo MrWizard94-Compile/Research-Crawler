@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Human in the Loop: Interactive Passive Automata Learning via Evidence-Driven State-Merging Algorithms",
+  "url": "http://arxiv.org/abs/1707.09430v1",
+  "why": "arXiv match: associative recall state space model attention hybrid",
+  "meta": {
+    "authors": [
+      "Christian A. Hammerschmidt",
+      "Radu State",
+      "Sicco Verwer"
+    ],
+    "published": "2017-07-28T22:19:50Z"
+  },
+  "content": "Human in the Loop: Interactive Passive Automata Learning via Evidence-Driven State-Merging Algorithms\n\nAuthors: Christian A. Hammerschmidt, Radu State, Sicco Verwer\nPublished: 2017-07-28T22:19:50Z\narXiv: http://arxiv.org/abs/1707.09430v1\n\nAbstract:\nWe present an interactive version of an evidence-driven state-merging (EDSM) algorithm for learning variants of finite state automata. Learning these automata often amounts to recovering or reverse engineering the model generating the data despite noisy, incomplete, or imperfectly sampled data sources rather than optimizing a purely numeric target function. Domain expertise and human knowledge about the target domain can guide this process, and typically is captured in parameter settings. Often, domain expertise is subconscious and not expressed explicitly. Directly interacting with the learning algorithm makes it easier to utilize this knowledge effectively.",
+  "fetched_at": "2026-07-13T01:41:45+00:00"
+}

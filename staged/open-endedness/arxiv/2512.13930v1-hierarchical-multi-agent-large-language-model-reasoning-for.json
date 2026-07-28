@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery",
+  "url": "http://arxiv.org/abs/2512.13930v1",
+  "why": "arXiv match: large language models mathematical discovery evolutionary FunSearch",
+  "meta": {
+    "authors": [
+      "Samuel Rothfarb",
+      "Megan C. Davis",
+      "Ivana Matanovic",
+      "Baikun Li",
+      "Edward F. Holby",
+      "Wilton J. M. Kort-Kamp"
+    ],
+    "published": "2025-12-15T22:08:18Z"
+  },
+  "content": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery\n\nAuthors: Samuel Rothfarb, Megan C. Davis, Ivana Matanovic, Baikun Li, Edward F. Holby, Wilton J. M. Kort-Kamp\nPublished: 2025-12-15T22:08:18Z\narXiv: http://arxiv.org/abs/2512.13930v1\n\nAbstract:\nArtificial intelligence is reshaping scientific exploration, but most methods automate procedural tasks without engaging in scientific reasoning, limiting autonomy in discovery. We introduce Materials Agents for Simulation and Theory in Electronic-structure Reasoning (MASTER), an active learning framework where large language models autonomously design, execute, and interpret atomistic simulations. In MASTER, a multimodal system translates natural language into density functional theory workflows, while higher-level reasoning agents guide discovery through a hierarchy of strategies, including a single agent baseline and three multi-agent approaches: peer review, triage-ranking, and triage-forms. Across two chemical applications, CO adsorption on Cu-surface transition metal (M) adatoms and on M-N-C catalysts, reasoning-driven exploration reduces required atomistic simulations by up to 90% relative to trial-and-error selection. Reasoning trajectories reveal chemically grounded decisions that cannot be explained by stochastic sampling or semantic bias. Altogether, multi-agent collaboration accelerates materials discovery and marks a new paradigm for autonomous scientific exploration.",
+  "fetched_at": "2026-07-13T01:43:00+00:00"
+}

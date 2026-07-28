@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "BOP-Elites, a Bayesian Optimisation algorithm for Quality-Diversity search",
+  "url": "http://arxiv.org/abs/2005.04320v1",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Paul Kent",
+      "Juergen Branke"
+    ],
+    "published": "2020-05-08T23:49:13Z"
+  },
+  "content": "BOP-Elites, a Bayesian Optimisation algorithm for Quality-Diversity search\n\nAuthors: Paul Kent, Juergen Branke\nPublished: 2020-05-08T23:49:13Z\narXiv: http://arxiv.org/abs/2005.04320v1\n\nAbstract:\nQuality Diversity (QD) algorithms such as MAP-Elites are a class of optimisation techniques that attempt to find a set of high-performing points from an objective function while enforcing behavioural diversity of the points over one or more interpretable, user chosen, feature functions.\n  In this paper we propose the Bayesian Optimisation of Elites (BOP-Elites) algorithm that uses techniques from Bayesian Optimisation to explicitly model both quality and diversity with Gaussian Processes. By considering user defined regions of the feature space as 'niches' our task is to find the optimal solution in each niche. We propose a novel acquisition function to intelligently choose new points that provide the highest expected improvement to the ensemble problem of identifying the best solution in every niche. In this way each function evaluation enriches our modelling and provides insight to the whole problem, naturally balancing exploration and exploitation of the search space. The resulting algorithm is very effective in identifying the parts of the search space that belong to a niche in feature space, and finding the optimal solution in each niche. It is also significantly more sample efficient than simpler benchmark approaches. BOP-Elites goes further than existing QD algorithms by quantifying the uncertainty around our predictions and offering additional illumination of the search space through surrogate models.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

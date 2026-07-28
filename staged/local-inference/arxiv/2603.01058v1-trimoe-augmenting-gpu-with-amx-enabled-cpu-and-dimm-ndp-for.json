@@ -1,0 +1,26 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "TriMoE: Augmenting GPU with AMX-Enabled CPU and DIMM-NDP for High-Throughput MoE Inference via Offloading",
+  "url": "http://arxiv.org/abs/2603.01058v1",
+  "why": "arXiv match: high throughput generative inference single GPU offloading",
+  "meta": {
+    "authors": [
+      "Yudong Pan",
+      "Yintao He",
+      "Tianhua Han",
+      "Lian Liu",
+      "Shixin Zhao",
+      "Zhirong Chen",
+      "Mengdi Wang",
+      "Cangyuan Li",
+      "Yinhe Han",
+      "Ying Wang"
+    ],
+    "published": "2026-03-01T11:27:37Z"
+  },
+  "content": "TriMoE: Augmenting GPU with AMX-Enabled CPU and DIMM-NDP for High-Throughput MoE Inference via Offloading\n\nAuthors: Yudong Pan, Yintao He, Tianhua Han, Lian Liu, Shixin Zhao, Zhirong Chen, Mengdi Wang, Cangyuan Li, Yinhe Han, Ying Wang\nPublished: 2026-03-01T11:27:37Z\narXiv: http://arxiv.org/abs/2603.01058v1\n\nAbstract:\nTo deploy large Mixture-of-Experts (MoE) models cost-effectively, offloading-based single-GPU heterogeneous inference is crucial. While GPU-CPU architectures that offload cold experts are constrained by host memory bandwidth, emerging GPU-NDP architectures utilize DIMM-NDP to offload non-hot experts. However, non-hot experts are not a homogeneous memory-bound group: a significant subset of warm experts exists is severely penalized by high GPU I/O latency yet can saturate NDP compute throughput, exposing a critical compute gap. We present TriMoE, a novel GPU-CPU-NDP architecture that fills this gap by synergistically leveraging AMX-enabled CPU to precisely map hot, warm, and cold experts onto their optimal compute units. We further introduce a bottleneck-aware expert scheduling policy and a prediction-driven dynamic relayout/rebalancing scheme. Experiments demonstrate that TriMoE achieves up to 2.83x speedup over state-of-the-art solutions.",
+  "fetched_at": "2026-07-13T01:41:33+00:00"
+}

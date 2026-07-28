@@ -1,0 +1,23 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Large Language Models to the Rescue: Reducing the Complexity in Scientific Workflow Development Using ChatGPT",
+  "url": "http://arxiv.org/abs/2311.01825v2",
+  "why": "arXiv match: large language model scientific hypothesis discovery",
+  "meta": {
+    "authors": [
+      "Mario Sänger",
+      "Ninon De Mecquenem",
+      "Katarzyna Ewa Lewińska",
+      "Vasilis Bountris",
+      "Fabian Lehmann",
+      "Ulf Leser",
+      "Thomas Kosch"
+    ],
+    "published": "2023-11-03T10:28:53Z"
+  },
+  "content": "Large Language Models to the Rescue: Reducing the Complexity in Scientific Workflow Development Using ChatGPT\n\nAuthors: Mario Sänger, Ninon De Mecquenem, Katarzyna Ewa Lewińska, Vasilis Bountris, Fabian Lehmann, Ulf Leser, Thomas Kosch\nPublished: 2023-11-03T10:28:53Z\narXiv: http://arxiv.org/abs/2311.01825v2\n\nAbstract:\nScientific workflow systems are increasingly popular for expressing and executing complex data analysis pipelines over large datasets, as they offer reproducibility, dependability, and scalability of analyses by automatic parallelization on large compute clusters. However, implementing workflows is difficult due to the involvement of many black-box tools and the deep infrastructure stack necessary for their execution. Simultaneously, user-supporting tools are rare, and the number of available examples is much lower than in classical programming languages. To address these challenges, we investigate the efficiency of Large Language Models (LLMs), specifically ChatGPT, to support users when dealing with scientific workflows. We performed three user studies in two scientific domains to evaluate ChatGPT for comprehending, adapting, and extending workflows. Our results indicate that LLMs efficiently interpret workflows but achieve lower performance for exchanging components or purposeful workflow extensions. We characterize their limitations in these challenging scenarios and suggest future research directions.",
+  "fetched_at": "2026-07-13T01:43:09+00:00"
+}

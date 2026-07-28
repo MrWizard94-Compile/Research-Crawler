@@ -1,0 +1,25 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "DOME: Recommendations for supervised machine learning validation in biology",
+  "url": "http://arxiv.org/abs/2006.16189v4",
+  "why": "arXiv match: abduction inference to the best explanation machine learning",
+  "meta": {
+    "authors": [
+      "Ian Walsh",
+      "Dmytro Fishman",
+      "Dario Garcia-Gasulla",
+      "Tiina Titma",
+      "Gianluca Pollastri",
+      "The ELIXIR Machine Learning focus group",
+      "Jen Harrow",
+      "Fotis E. Psomopoulos",
+      "Silvio C. E. Tosatto"
+    ],
+    "published": "2020-06-25T12:01:39Z"
+  },
+  "content": "DOME: Recommendations for supervised machine learning validation in biology\n\nAuthors: Ian Walsh, Dmytro Fishman, Dario Garcia-Gasulla, Tiina Titma, Gianluca Pollastri, The ELIXIR Machine Learning focus group, Jen Harrow, Fotis E. Psomopoulos, Silvio C. E. Tosatto\nPublished: 2020-06-25T12:01:39Z\narXiv: http://arxiv.org/abs/2006.16189v4\n\nAbstract:\nModern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+  "fetched_at": "2026-07-13T01:43:17+00:00"
+}

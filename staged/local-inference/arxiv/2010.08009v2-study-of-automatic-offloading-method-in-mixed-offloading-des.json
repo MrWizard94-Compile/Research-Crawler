@@ -1,0 +1,17 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Study of Automatic Offloading Method in Mixed Offloading Destination Environment",
+  "url": "http://arxiv.org/abs/2010.08009v2",
+  "why": "arXiv match: high throughput generative inference single GPU offloading",
+  "meta": {
+    "authors": [
+      "Yoji Yamato"
+    ],
+    "published": "2020-10-15T20:30:48Z"
+  },
+  "content": "Study of Automatic Offloading Method in Mixed Offloading Destination Environment\n\nAuthors: Yoji Yamato\nPublished: 2020-10-15T20:30:48Z\narXiv: http://arxiv.org/abs/2010.08009v2\n\nAbstract:\nIn recent years, utilization of heterogeneous hardware other than small core CPU such as GPU, FPGA or many core CPU is increasing. However, when using heterogeneous hardware, barriers of technical skills such as OpenMP, CUDA and OpenCL are high. Based on that, I have proposed environment-adaptive software that enables automatic conversion, configuration, and high performance operation of once written code, according to the hardware to be placed. However, including existing technologies, there has been no research to properly and automatically offload the mixed offloading destination environment such as GPU, FPGA and many core CPU. In this paper, as a new element of environment-adaptive software, I study a method for offloading applications properly and automatically in the environment where the offloading destination is mixed with GPU, FPGA and many core CPU. I evaluate the effectiveness of the proposed method in multiple applications.",
+  "fetched_at": "2026-07-13T01:41:33+00:00"
+}

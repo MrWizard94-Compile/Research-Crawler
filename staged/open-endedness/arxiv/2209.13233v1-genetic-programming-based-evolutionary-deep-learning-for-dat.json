@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Genetic Programming-Based Evolutionary Deep Learning for Data-Efficient Image Classification",
+  "url": "http://arxiv.org/abs/2209.13233v1",
+  "why": "arXiv match: novelty search open-ended evolutionary computation",
+  "meta": {
+    "authors": [
+      "Ying Bi",
+      "Bing Xue",
+      "Mengjie Zhang"
+    ],
+    "published": "2022-09-27T08:10:16Z"
+  },
+  "content": "Genetic Programming-Based Evolutionary Deep Learning for Data-Efficient Image Classification\n\nAuthors: Ying Bi, Bing Xue, Mengjie Zhang\nPublished: 2022-09-27T08:10:16Z\narXiv: http://arxiv.org/abs/2209.13233v1\n\nAbstract:\nData-efficient image classification is a challenging task that aims to solve image classification using small training data. Neural network-based deep learning methods are effective for image classification, but they typically require large-scale training data and have major limitations such as requiring expertise to design network architectures and having poor interpretability. Evolutionary deep learning is a recent hot topic that combines evolutionary computation with deep learning. However, most evolutionary deep learning methods focus on evolving architectures of neural networks, which still suffer from limitations such as poor interpretability. To address this, this paper proposes a new genetic programming-based evolutionary deep learning approach to data-efficient image classification. The new approach can automatically evolve variable-length models using many important operators from both image and classification domains. It can learn different types of image features from colour or gray-scale images, and construct effective and diverse ensembles for image classification. A flexible multi-layer representation enables the new approach to automatically construct shallow or deep models/trees for different tasks and perform effective transformations on the input data via multiple internal nodes. The new approach is applied to solve five image classification tasks with different training set sizes. The results show that it achieves better performance in most cases than deep learning methods for data-efficient image classification. A deep analysis shows that the new approach has good convergence and evolves models with high interpretability, different lengths/sizes/shapes, and good transferability.",
+  "fetched_at": "2026-07-13T01:42:52+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "github",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "Python",
+  "title": "trevorstephens/gplearn",
+  "url": "https://github.com/trevorstephens/gplearn",
+  "why": "genetic-programming symbolic regression, sklearn-style",
+  "ref": "main/README.rst",
+  "meta": {
+    "stars": 1870,
+    "description": "Genetic Programming in Python, with a scikit-learn inspired API",
+    "language": "Python",
+    "topics": [
+      "genetic-programming",
+      "machine-learning",
+      "python",
+      "scikit-learn",
+      "symbolic-regression"
+    ]
+  },
+  "content": ".. image:: https://img.shields.io/pypi/v/gplearn.svg\n    :target: https://pypi.python.org/pypi/gplearn/\n    :alt: Version\n.. image:: https://img.shields.io/pypi/l/gplearn.svg\n    :target: https://github.com/trevorstephens/gplearn/blob/main/LICENSE\n    :alt: License\n.. image:: https://readthedocs.org/projects/gplearn/badge/?version=stable\n    :target: http://gplearn.readthedocs.io/\n    :alt: Documentation Status\n.. image:: https://github.com/trevorstephens/gplearn/actions/workflows/build.yml/badge.svg\n    :target: https://github.com/trevorstephens/gplearn/actions/workflows/build.yml\n    :alt: Test Status\n.. image:: https://coveralls.io/repos/trevorstephens/gplearn/badge.svg\n    :target: https://coveralls.io/r/trevorstephens/gplearn\n    :alt: Test Coverage\n.. image:: https://app.codacy.com/project/badge/Grade/02506317148e41a4b68a66e4c4e2b035\n    :target: https://app.codacy.com/gh/trevorstephens/gplearn/dashboard\n    :alt: Code Health\n\n|\n\n.. image:: https://raw.githubusercontent.com/trevorstephens/gplearn/master/doc/logos/gplearn-wide.png\n    :target: https://github.com/trevorstephens/gplearn\n    :alt: Genetic Programming in Python, with a scikit-learn inspired API\n\n|\n\nWelcome to gplearn!\n===================\n\n`gplearn` implements Genetic Programming in Python, with a `scikit-learn <http://scikit-learn.org>`_ inspired and compatible API.\n\nWhile Genetic Programming (GP) can be used to perform a `very wide variety of tasks <http://www.genetic-programming.org/combined.php>`_, gplearn is purposefully constrained to solving symbolic regression problems. This is motivated by the scikit-learn ethos, of having powerful estimators that are straight-forward to implement.\n\nSymbolic regression is a machine learning technique that aims to identify an underlying mathematical expression that best describes a relationship. It begins by building a population of naive random formulas to represent a relationship between known independent variables and their dependent variable targets in order to predict new data. Each successive generation of programs is then evolved from the one that came before it by selecting the fittest individuals from the population to undergo genetic operations.\n\ngplearn retains the familiar scikit-learn `fit/predict` API and works with the existing scikit-learn `pipeline <https://scikit-learn.org/stable/modules/compose.html>`_ and `grid search <http://scikit-learn.org/stable/modules/grid_search.html>`_ modules. The package attempts to squeeze a lot of functionality into a scikit-learn-style API. While there are a lot of parameters to tweak, `reading the documentation <http://gplearn.readthedocs.io/>`_ should make the more relevant ones clear for your problem.\n\ngplearn supports regression through the SymbolicRegressor, binary classification with the SymbolicClassifier, as well as transformation for automated feature engineering with the SymbolicTransformer, which is designed to support regression problems, but should also work for binary classification.\n\ngplearn is built on scikit-learn and a fairly recent copy is required for `installation <http://gplearn.readthedocs.io/en/stable/installation.html>`_. If you come across any issues in running or installing the package, `please submit a bug report <https://github.com/trevorstephens/gplearn/issues>`_.\n",
+  "fetched_at": "2026-07-13T01:42:18+00:00"
+}

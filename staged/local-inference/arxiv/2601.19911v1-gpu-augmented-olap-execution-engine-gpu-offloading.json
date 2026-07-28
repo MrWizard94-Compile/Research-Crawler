@@ -1,0 +1,17 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "GPU-Augmented OLAP Execution Engine: GPU Offloading",
+  "url": "http://arxiv.org/abs/2601.19911v1",
+  "why": "arXiv match: mixture of experts inference offloading consumer GPU",
+  "meta": {
+    "authors": [
+      "Ilsun Chang"
+    ],
+    "published": "2025-12-24T04:47:28Z"
+  },
+  "content": "GPU-Augmented OLAP Execution Engine: GPU Offloading\n\nAuthors: Ilsun Chang\nPublished: 2025-12-24T04:47:28Z\narXiv: http://arxiv.org/abs/2601.19911v1\n\nAbstract:\nModern OLAP systems have mitigated I/O bottlenecks via storage-compute separation and columnar layouts, but CPU costs in the execution layer (especially Top-K selection and join probe) are emerging as new bottlenecks at scale. This paper proposes a hybrid architecture that augments existing vectorized execution by selectively offloading only high-impact primitives to the GPU. To reduce data movement, we use key-only transfer (keys and pointers) with late materialization. We further introduce a Risky Gate (risk-aware gating) that triggers offloading only in gain/risk intervals based on input size, transfer, kernel and post-processing costs, and candidate-set complexity (K, M). Using PostgreSQL microbenchmarks and GPU proxy measurements, we observe improved tail latency (P95/P99) under gated offloading compared to always-on GPU offloading. This work extends the risk-aware gating principle used for optimizer-stage GPU-assisted measurement (arXiv:2512.19750) to execution-layer OLAP primitives.",
+  "fetched_at": "2026-07-13T01:41:15+00:00"
+}

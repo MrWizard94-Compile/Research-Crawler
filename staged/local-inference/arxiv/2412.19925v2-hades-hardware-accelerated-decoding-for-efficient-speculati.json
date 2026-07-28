@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "HADES: Hardware Accelerated Decoding for Efficient Speculation in Large Language Models",
+  "url": "http://arxiv.org/abs/2412.19925v2",
+  "why": "arXiv match: speculative decoding large language model acceleration",
+  "meta": {
+    "authors": [
+      "Ze Yang",
+      "Yihong Jin",
+      "Xinhe Xu"
+    ],
+    "published": "2024-12-27T21:19:01Z"
+  },
+  "content": "HADES: Hardware Accelerated Decoding for Efficient Speculation in Large Language Models\n\nAuthors: Ze Yang, Yihong Jin, Xinhe Xu\nPublished: 2024-12-27T21:19:01Z\narXiv: http://arxiv.org/abs/2412.19925v2\n\nAbstract:\nLarge Language Models (LLMs) have revolutionized natural language processing by understanding and generating human-like text. However, the increasing demand for more sophisticated LLMs presents significant computational challenges due to their scale and complexity. This paper introduces Hardware Accelerated Decoding (HADES), a novel approach to enhance the performance and energy efficiency of LLMs. We address the design of an LLM accelerator with hardware-level speculative decoding support, a concept not previously explored in existing literature. Our work demonstrates how speculative decoding can significantly improve the efficiency of LLM operations, paving the way for more advanced and practical applications of these models.",
+  "fetched_at": "2026-07-13T01:41:28+00:00"
+}

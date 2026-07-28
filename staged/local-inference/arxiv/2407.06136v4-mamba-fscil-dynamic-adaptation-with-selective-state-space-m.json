@@ -1,0 +1,23 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Mamba-FSCIL: Dynamic Adaptation with Selective State Space Model for Few-Shot Class-Incremental Learning",
+  "url": "http://arxiv.org/abs/2407.06136v4",
+  "why": "arXiv match: Mamba selective state space model language",
+  "meta": {
+    "authors": [
+      "Xiaojie Li",
+      "Yibo Yang",
+      "Jianlong Wu",
+      "Yue Yu",
+      "Ming-Hsuan Yang",
+      "Liqiang Nie",
+      "Min Zhang"
+    ],
+    "published": "2024-07-08T17:09:39Z"
+  },
+  "content": "Mamba-FSCIL: Dynamic Adaptation with Selective State Space Model for Few-Shot Class-Incremental Learning\n\nAuthors: Xiaojie Li, Yibo Yang, Jianlong Wu, Yue Yu, Ming-Hsuan Yang, Liqiang Nie, Min Zhang\nPublished: 2024-07-08T17:09:39Z\narXiv: http://arxiv.org/abs/2407.06136v4\n\nAbstract:\nFew-shot class-incremental learning (FSCIL) aims to incrementally learn novel classes from limited examples while preserving knowledge of previously learned classes. Existing methods face a critical dilemma: static architectures rely on a constant parameter space to learn from data that arrive sequentially, making them prone to overfitting to the current session, while dynamic architectures continually expand the parameter space, leading to increased complexity. In this study, we explore the potential of Selective State Space Models (SSMs) for FSCIL. Mamba leverages its input-dependent parameters to dynamically adjust its processing patterns and generate content-aware scan patterns without session-wise projector expansion. This enables it to configure distinct processing for base and novel classes, helping preserve existing knowledge while adapting to new ones. To leverage Mamba's potential for FSCIL, we design two key modules: First, we propose a dual selective SSM projector that generates input-conditioned state-space parameters from intermediate features for dynamic adaptation. The dual design structurally decouples base and novel-class processing, employing a frozen base branch to maintain stable base-class features and a dynamic incremental branch that adaptively learns distinctive feature shifts for novel classes. Second, we develop a class-sensitive selective scan mechanism to guide dynamic adaptation of the incremental branch. It reduces the disruption to base-class representations caused by training on novel data, and meanwhile, encourages the selective scan to perform in distinct patterns between base and novel classes. Extensive experiments on miniImageNet, CIFAR-100, and CUB-200 demonstrate that Mamba-FSCIL achieves state-of-the-art performance.",
+  "fetched_at": "2026-07-13T01:41:24+00:00"
+}

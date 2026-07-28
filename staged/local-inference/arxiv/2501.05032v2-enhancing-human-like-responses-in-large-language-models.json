@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Enhancing Human-Like Responses in Large Language Models",
+  "url": "http://arxiv.org/abs/2501.05032v2",
+  "why": "arXiv match: post-training quantization large language models GPTQ AWQ",
+  "meta": {
+    "authors": [
+      "Ethem Yağız Çalık",
+      "Talha Rüzgar Akkuş"
+    ],
+    "published": "2025-01-09T07:44:06Z"
+  },
+  "content": "Enhancing Human-Like Responses in Large Language Models\n\nAuthors: Ethem Yağız Çalık, Talha Rüzgar Akkuş\nPublished: 2025-01-09T07:44:06Z\narXiv: http://arxiv.org/abs/2501.05032v2\n\nAbstract:\nThis paper explores the advancements in making large language models (LLMs) more human-like. We focus on techniques that enhance natural language understanding, conversational coherence, and emotional intelligence in AI systems. The study evaluates various approaches, including fine-tuning with diverse datasets, incorporating psychological principles, and designing models that better mimic human reasoning patterns. Our findings demonstrate that these enhancements not only improve user interactions but also open new possibilities for AI applications across different domains. Future work will address the ethical implications and potential biases introduced by these human-like attributes.",
+  "fetched_at": "2026-07-13T01:41:19+00:00"
+}

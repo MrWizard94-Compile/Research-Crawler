@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning",
+  "url": "http://arxiv.org/abs/1906.01101v1",
+  "why": "arXiv match: abduction inference to the best explanation machine learning",
+  "meta": {
+    "authors": [
+      "Diego Granziol",
+      "Binxin Ru",
+      "Stefan Zohren",
+      "Xiaowen Doing",
+      "Michael Osborne",
+      "Stephen Roberts"
+    ],
+    "published": "2019-06-03T22:10:52Z"
+  },
+  "content": "MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning\n\nAuthors: Diego Granziol, Binxin Ru, Stefan Zohren, Xiaowen Doing, Michael Osborne, Stephen Roberts\nPublished: 2019-06-03T22:10:52Z\narXiv: http://arxiv.org/abs/1906.01101v1\n\nAbstract:\nEfficient approximation lies at the heart of large-scale machine learning problems. In this paper, we propose a novel, robust maximum entropy algorithm, which is capable of dealing with hundreds of moments and allows for computationally efficient approximations. We showcase the usefulness of the proposed method, its equivalence to constrained Bayesian variational inference and demonstrate its superiority over existing approaches in two applications, namely, fast log determinant estimation and information-theoretic Bayesian optimisation.",
+  "fetched_at": "2026-07-13T01:43:17+00:00"
+}

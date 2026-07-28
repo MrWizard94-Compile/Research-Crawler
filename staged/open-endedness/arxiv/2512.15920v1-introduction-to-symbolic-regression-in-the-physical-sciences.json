@@ -1,0 +1,20 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Introduction to Symbolic Regression in the Physical Sciences",
+  "url": "http://arxiv.org/abs/2512.15920v1",
+  "why": "arXiv match: symbolic regression discovering equations from data",
+  "meta": {
+    "authors": [
+      "Deaglan J. Bartlett",
+      "Harry Desmond",
+      "Pedro G. Ferreira",
+      "Gabriel Kronberger"
+    ],
+    "published": "2025-12-17T19:32:50Z"
+  },
+  "content": "Introduction to Symbolic Regression in the Physical Sciences\n\nAuthors: Deaglan J. Bartlett, Harry Desmond, Pedro G. Ferreira, Gabriel Kronberger\nPublished: 2025-12-17T19:32:50Z\narXiv: http://arxiv.org/abs/2512.15920v1\n\nAbstract:\nSymbolic regression (SR) has emerged as a powerful method for uncovering interpretable mathematical relationships from data, offering a novel route to both scientific discovery and efficient empirical modelling. This article introduces the Special Issue on Symbolic Regression for the Physical Sciences, motivated by the Royal Society discussion meeting held in April 2025. The contributions collected here span applications from automated equation discovery and emergent-phenomena modelling to the construction of compact emulators for computationally expensive simulations.\n  The introductory review outlines the conceptual foundations of SR, contrasts it with conventional regression approaches, and surveys its main use cases in the physical sciences, including the derivation of effective theories, empirical functional forms and surrogate models. We summarise methodological considerations such as search-space design, operator selection, complexity control, feature selection, and integration with modern AI approaches. We also highlight ongoing challenges, including scalability, robustness to noise, overfitting and computational complexity. Finally we emphasise emerging directions, particularly the incorporation of symmetry constraints, asymptotic behaviour and other theoretical information. Taken together, the papers in this Special Issue illustrate the accelerating progress of SR and its growing relevance across the physical sciences.",
+  "fetched_at": "2026-07-13T01:43:04+00:00"
+}

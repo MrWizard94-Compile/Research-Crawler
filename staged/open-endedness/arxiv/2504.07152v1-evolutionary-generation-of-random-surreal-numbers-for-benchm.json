@@ -1,0 +1,17 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Evolutionary Generation of Random Surreal Numbers for Benchmarking",
+  "url": "http://arxiv.org/abs/2504.07152v1",
+  "why": "arXiv match: novelty search open-ended evolutionary computation",
+  "meta": {
+    "authors": [
+      "Matthew Roughan"
+    ],
+    "published": "2025-04-09T07:28:42Z"
+  },
+  "content": "Evolutionary Generation of Random Surreal Numbers for Benchmarking\n\nAuthors: Matthew Roughan\nPublished: 2025-04-09T07:28:42Z\narXiv: http://arxiv.org/abs/2504.07152v1\n\nAbstract:\nThere are many areas of scientific endeavour where large, complex datasets are needed for benchmarking. Evolutionary computing provides a means towards creating such sets. As a case study, we consider Conway's Surreal numbers. They have largely been treated as a theoretical construct, with little effort towards empirical study, at least in part because of the difficulty of working with all but the smallest numbers. To advance this status, we need efficient algorithms, and in order to develop such we need benchmark data sets of surreal numbers. In this paper, we present a method for generating ensembles of random surreal numbers to benchmark algorithms. The approach uses an evolutionary algorithm to create the benchmark datasets where we can analyse and control features of the resulting test sets. Ultimately, the process is designed to generate networks with defined properties, and we expect this to be useful for other types of network data.",
+  "fetched_at": "2026-07-13T01:42:52+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Diverse Prompts: Illuminating the Prompt Space of Large Language Models with MAP-Elites",
+  "url": "http://arxiv.org/abs/2504.14367v1",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Gabriel Machado Santos",
+      "Rita Maria da Silva Julia",
+      "Marcelo Zanchetta do Nascimento"
+    ],
+    "published": "2025-04-19T17:50:34Z"
+  },
+  "content": "Diverse Prompts: Illuminating the Prompt Space of Large Language Models with MAP-Elites\n\nAuthors: Gabriel Machado Santos, Rita Maria da Silva Julia, Marcelo Zanchetta do Nascimento\nPublished: 2025-04-19T17:50:34Z\narXiv: http://arxiv.org/abs/2504.14367v1\n\nAbstract:\nPrompt engineering is essential for optimizing large language models (LLMs), yet the link between prompt structures and task performance remains underexplored. This work introduces an evolutionary approach that combines context-free grammar (CFG) with the MAP-Elites algorithm to systematically explore the prompt space. Our method prioritizes quality and diversity, generating high-performing and structurally varied prompts while analyzing their alignment with diverse tasks by varying traits such as the number of examples (shots) and reasoning depth. By systematically mapping the phenotypic space, we reveal how structural variations influence LLM performance, offering actionable insights for task-specific and adaptable prompt design. Evaluated on seven BigBench Lite tasks across multiple LLMs, our results underscore the critical interplay of quality and diversity, advancing the effectiveness and versatility of LLMs.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

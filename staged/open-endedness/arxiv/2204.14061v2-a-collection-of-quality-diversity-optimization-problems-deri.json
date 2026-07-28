@@ -1,0 +1,20 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "A Collection of Quality Diversity Optimization Problems Derived from Hyperparameter Optimization of Machine Learning Models",
+  "url": "http://arxiv.org/abs/2204.14061v2",
+  "why": "arXiv match: quality diversity optimization robotics",
+  "meta": {
+    "authors": [
+      "Lennart Schneider",
+      "Florian Pfisterer",
+      "Janek Thomas",
+      "Bernd Bischl"
+    ],
+    "published": "2022-04-28T14:29:20Z"
+  },
+  "content": "A Collection of Quality Diversity Optimization Problems Derived from Hyperparameter Optimization of Machine Learning Models\n\nAuthors: Lennart Schneider, Florian Pfisterer, Janek Thomas, Bernd Bischl\nPublished: 2022-04-28T14:29:20Z\narXiv: http://arxiv.org/abs/2204.14061v2\n\nAbstract:\nThe goal of Quality Diversity Optimization is to generate a collection of diverse yet high-performing solutions to a given problem at hand. Typical benchmark problems are, for example, finding a repertoire of robot arm configurations or a collection of game playing strategies. In this paper, we propose a set of Quality Diversity Optimization problems that tackle hyperparameter optimization of machine learning models - a so far underexplored application of Quality Diversity Optimization. Our benchmark problems involve novel feature functions, such as interpretability or resource usage of models. To allow for fast and efficient benchmarking, we build upon YAHPO Gym, a recently proposed open source benchmarking suite for hyperparameter optimization that makes use of high performing surrogate models and returns these surrogate model predictions instead of evaluating the true expensive black box function. We present results of an initial experimental study comparing different Quality Diversity optimizers on our benchmark problems. Furthermore, we discuss future directions and challenges of Quality Diversity Optimization in the context of hyperparameter optimization.",
+  "fetched_at": "2026-07-13T01:43:13+00:00"
+}

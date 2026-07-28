@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "BitRL: Reinforcement Learning with 1-bit Quantized Language Models for Resource-Constrained Edge Deployment",
+  "url": "http://arxiv.org/abs/2604.24273v1",
+  "why": "arXiv match: 1-bit ternary quantization large language model",
+  "meta": {
+    "authors": [
+      "Md. Ashiq Ul Islam Sajid",
+      "Mohammad Sakib Mahmood",
+      "Md. Tareq Hasan",
+      "Md Abdur Rahim",
+      "Rafat Ara",
+      "Md. Arafat Hossain"
+    ],
+    "published": "2026-04-27T10:03:37Z"
+  },
+  "content": "BitRL: Reinforcement Learning with 1-bit Quantized Language Models for Resource-Constrained Edge Deployment\n\nAuthors: Md. Ashiq Ul Islam Sajid, Mohammad Sakib Mahmood, Md. Tareq Hasan, Md Abdur Rahim, Rafat Ara, Md. Arafat Hossain\nPublished: 2026-04-27T10:03:37Z\narXiv: http://arxiv.org/abs/2604.24273v1\n\nAbstract:\nThe deployment of intelligent reinforcement learning (RL) agents on resource-constrained edge devices remains a fundamental challenge due to the substantial memory, computational, and energy requirements of modern deep learning systems. While large language models (LLMs) have emerged as powerful architectures for decision-making agents, their multi-billion parameter scale confines them to cloud-based deployment, raising concerns about latency, privacy, and connectivity dependence.\n  We introduce BitRL, a framework for building RL agents using 1-bit quantized language models that enables practical on-device learning and inference under severe resource constraints. Leveraging the BitNet b1.58 architecture with ternary weights (-1, 0, +1) and an optimized inference stack, BitRL achieves 10-16x memory reduction and 3-5x energy efficiency improvements over full-precision baselines while maintaining 85-98 percent of task performance across benchmarks.\n  We provide theoretical analysis of quantization as structured parameter perturbation, derive convergence bounds for quantized policy gradients under frozen-backbone architectures, and identify the exploration-stability trade-off in extreme quantization. Our framework systematically integrates 1-bit quantized language models with reinforcement learning for edge deployment and demonstrates effectiveness on commodity hardware.",
+  "fetched_at": "2026-07-13T01:41:41+00:00"
+}

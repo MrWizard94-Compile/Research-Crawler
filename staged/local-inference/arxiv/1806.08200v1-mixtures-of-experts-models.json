@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Mixtures of Experts Models",
+  "url": "http://arxiv.org/abs/1806.08200v1",
+  "why": "arXiv match: mixture of experts inference offloading consumer GPU",
+  "meta": {
+    "authors": [
+      "Isobel Claire Gormley",
+      "Sylvia Frühwirth-Schnatter"
+    ],
+    "published": "2018-06-21T12:30:12Z"
+  },
+  "content": "Mixtures of Experts Models\n\nAuthors: Isobel Claire Gormley, Sylvia Frühwirth-Schnatter\nPublished: 2018-06-21T12:30:12Z\narXiv: http://arxiv.org/abs/1806.08200v1\n\nAbstract:\nMixtures of experts models provide a framework in which covariates may be included in mixture models. This is achieved by modelling the parameters of the mixture model as functions of the concomitant covariates. Given their mixture model foundation, mixtures of experts models possess a diverse range of analytic uses, from clustering observations to capturing parameter heterogeneity in cross-sectional data. This chapter focuses on delineating the mixture of experts modelling framework and demonstrates the utility and flexibility of mixtures of experts models as an analytic tool.",
+  "fetched_at": "2026-07-13T01:41:15+00:00"
+}

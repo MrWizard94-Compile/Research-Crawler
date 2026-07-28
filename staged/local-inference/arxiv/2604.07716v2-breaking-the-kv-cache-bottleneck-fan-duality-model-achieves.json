@@ -1,0 +1,17 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Breaking the KV Cache Bottleneck: Fan Duality Model Achieves O(1) Decode Memory with Superior Associative Recall",
+  "url": "http://arxiv.org/abs/2604.07716v2",
+  "why": "arXiv match: associative recall state space model attention hybrid",
+  "meta": {
+    "authors": [
+      "Yasong Fan"
+    ],
+    "published": "2026-04-09T02:00:30Z"
+  },
+  "content": "Breaking the KV Cache Bottleneck: Fan Duality Model Achieves O(1) Decode Memory with Superior Associative Recall\n\nAuthors: Yasong Fan\nPublished: 2026-04-09T02:00:30Z\narXiv: http://arxiv.org/abs/2604.07716v2\n\nAbstract:\nWe present FDM (Fan Duality Model), a linear sequence architecture that resolves the fundamental tension between memory efficiency and associative recall in sequence modeling. FDM separates sequence processing into two components: a wave component (recurrent scan via phase-preserving Givens rotations) that compresses long-range patterns into a fixed-size complex hidden state, and a particle component (local-global cache) that retrieves specific tokens via learned associative addressing with W+K=272 slots independent of sequence length N. This yields strictly O(1) decode memory: 867 MB fixed across all prompt lengths 128-8,192 tokens, versus Transformer's 853-4,247 MB (4.9x reduction at N=8,192).\n  Beyond the architecture, we discover that jointly training the wave and particle components leads to suboptimal convergence. We propose Freeze-Scan, a two-phase training strategy that freezes the recurrent scan and optimizes the cache jointly with embeddings, achieving PPL=64.9 on WikiText-103 in 44K steps -- a 7.5x improvement over full fine-tuning (PPL=487).\n  On Multi-Query Associative Recall (MQAR), FDM achieves 0.966 accuracy, surpassing Transformer (0.606) by 59.5%, while pure scan without cache scores only 0.011, confirming the necessity of the particle component.\n  Finally, we introduce Holographic Reference Beam Decoding, interpreting the complex hidden state h_t as a holographic plate encoding the entire temporal history. Using the current input x_t as a reference beam to modulate h_t reduces PPL by up to 2.13 points (PPL=62.79) with a 4-head orthogonal reference beam using only 1.3M additional parameters, providing empirical support for the holographic interpretation.\n  Code and pretrained weights: https://github.com/YasongFan/FDM",
+  "fetched_at": "2026-07-13T01:41:45+00:00"
+}

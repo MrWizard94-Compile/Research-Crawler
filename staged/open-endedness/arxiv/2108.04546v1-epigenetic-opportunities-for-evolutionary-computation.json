@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Epigenetic opportunities for Evolutionary Computation",
+  "url": "http://arxiv.org/abs/2108.04546v1",
+  "why": "arXiv match: novelty search open-ended evolutionary computation",
+  "meta": {
+    "authors": [
+      "Sizhe Yuen",
+      "Thomas H. G. Ezard",
+      "Adam J. Sobey"
+    ],
+    "published": "2021-08-10T09:44:53Z"
+  },
+  "content": "Epigenetic opportunities for Evolutionary Computation\n\nAuthors: Sizhe Yuen, Thomas H. G. Ezard, Adam J. Sobey\nPublished: 2021-08-10T09:44:53Z\narXiv: http://arxiv.org/abs/2108.04546v1\n\nAbstract:\nEvolutionary Computation is a group of biologically inspired algorithms used to solve complex optimisation problems. It can be split into Evolutionary Algorithms, which take inspiration from genetic inheritance, and Swarm Intelligence algorithms, that take inspiration from cultural inheritance. However, recent developments have focused on computational or mathematical adaptions, leaving their biological roots behind. This has left much of the modern evolutionary literature relatively unexplored.\n  To understand which evolutionary mechanisms have been considered, and which have been overlooked, this paper breaks down successful bio-inspired algorithms under a contemporary biological framework based on the Extended Evolutionary Synthesis, an extension of the classical, genetics focussed, Modern Synthesis. The analysis shows that Darwinism and the Modern Synthesis have been incorporated into Evolutionary Computation but that the Extended Evolutionary Synthesis has been broadly ignored beyond:cultural inheritance, incorporated in the sub-set of Swarm Intelligence algorithms, evolvability, through CMA-ES, and multilevel selection, through Multi-Level Selection Genetic Algorithm.\n  The framework shows a missing gap in epigenetic inheritance for Evolutionary Computation, despite being a key building block in modern interpretations of how evolution occurs. Epigenetic inheritance can explain fast adaptation, without changes in an individual's genotype, by allowing biological organisms to self-adapt quickly to environmental cues, which, increases the speed of convergence while maintaining stability in changing environments. This leaves a diverse range of biologically inspired mechanisms as low hanging fruit that should be explored further within Evolutionary Computation.",
+  "fetched_at": "2026-07-13T01:42:52+00:00"
+}

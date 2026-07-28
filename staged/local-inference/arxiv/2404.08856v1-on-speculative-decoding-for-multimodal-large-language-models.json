@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "On Speculative Decoding for Multimodal Large Language Models",
+  "url": "http://arxiv.org/abs/2404.08856v1",
+  "why": "arXiv match: speculative decoding large language model acceleration",
+  "meta": {
+    "authors": [
+      "Mukul Gagrani",
+      "Raghavv Goel",
+      "Wonseok Jeon",
+      "Junyoung Park",
+      "Mingu Lee",
+      "Christopher Lott"
+    ],
+    "published": "2024-04-13T00:02:36Z"
+  },
+  "content": "On Speculative Decoding for Multimodal Large Language Models\n\nAuthors: Mukul Gagrani, Raghavv Goel, Wonseok Jeon, Junyoung Park, Mingu Lee, Christopher Lott\nPublished: 2024-04-13T00:02:36Z\narXiv: http://arxiv.org/abs/2404.08856v1\n\nAbstract:\nInference with Multimodal Large Language Models (MLLMs) is slow due to their large-language-model backbone which suffers from memory bandwidth bottleneck and generates tokens auto-regressively. In this paper, we explore the application of speculative decoding to enhance the inference efficiency of MLLMs, specifically the LLaVA 7B model. We show that a language-only model can serve as a good draft model for speculative decoding with LLaVA 7B, bypassing the need for image tokens and their associated processing components from the draft model. Our experiments across three different tasks show that speculative decoding can achieve a memory-bound speedup of up to 2.37$\\times$ using a 115M parameter language model that we trained from scratch. Additionally, we introduce a compact LLaVA draft model incorporating an image adapter, which shows marginal performance gains in image captioning while maintaining comparable results in other tasks.",
+  "fetched_at": "2026-07-13T01:41:28+00:00"
+}

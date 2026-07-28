@@ -1,0 +1,27 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Compressing KV Cache for Long-Context LLM Inference with Inter-Layer Attention Similarity",
+  "url": "http://arxiv.org/abs/2412.02252v2",
+  "why": "arXiv match: KV cache compression long context inference",
+  "meta": {
+    "authors": [
+      "Da Ma",
+      "Lu Chen",
+      "Situo Zhang",
+      "Yuxun Miao",
+      "Su Zhu",
+      "Zhi Chen",
+      "Hongshen Xu",
+      "Hanqi Li",
+      "Shuai Fan",
+      "Lei Pan",
+      "Kai Yu"
+    ],
+    "published": "2024-12-03T08:29:27Z"
+  },
+  "content": "Compressing KV Cache for Long-Context LLM Inference with Inter-Layer Attention Similarity\n\nAuthors: Da Ma, Lu Chen, Situo Zhang, Yuxun Miao, Su Zhu, Zhi Chen, Hongshen Xu, Hanqi Li, Shuai Fan, Lei Pan, Kai Yu\nPublished: 2024-12-03T08:29:27Z\narXiv: http://arxiv.org/abs/2412.02252v2\n\nAbstract:\nThe rapid expansion of context window sizes in Large Language Models~(LLMs) has enabled them to tackle increasingly complex tasks involving lengthy documents. However, this progress comes at the cost of a substantial increase in memory usage during inference, primarily due to the linear growth of the key-value~(KV) cache. Existing KV cache compression methods often discard less relevant tokens, which can lead to significant performance degradation when critical information is lost. In this paper, we propose \\textsc{PoD}~(Proximal tokens over Distant tokens), a novel KV cache compression framework that allocates memory according to token importance, retaining less important tokens in a more compact, shared form rather than discarding them entirely. Our approach is motivated by two key observations: (1) proximal tokens -- those at the beginning and end of the context -- are significantly more important for next-token prediction, and (2) attention scores for distant tokens are highly redundant across consecutive layers. Leveraging these insights, \\textsc{PoD} preserves the full KV cache for proximal tokens, while for distant tokens, it shares key states across layers. Since attention scores are determined by both queries and keys, sharing key states enables multiple layers to reuse a single set of keys for distant tokens, substantially reducing KV cache memory without discarding essential context. We further introduce a lightweight post-training adaptation to enable the model to adjust to this new attention-sharing structure. Extensive experiments on both synthetic~(Needle in a Haystack) and real-world long-context benchmarks demonstrate that \\textsc{PoD} reduces KV cache memory usage by up to 35\\% without compromising performance. Our method is orthogonal to existing token-selection-based techniques and can be combined with them for further KV cache compression.",
+  "fetched_at": "2026-07-13T01:41:37+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "The Role of Morphological Variation in Evolutionary Robotics: Maximizing Performance and Robustness",
+  "url": "http://arxiv.org/abs/2208.02809v2",
+  "why": "arXiv match: novelty search open-ended evolutionary computation",
+  "meta": {
+    "authors": [
+      "Jonata Tyska Carvalho",
+      "Stefano Nolfi"
+    ],
+    "published": "2022-08-04T17:58:15Z"
+  },
+  "content": "The Role of Morphological Variation in Evolutionary Robotics: Maximizing Performance and Robustness\n\nAuthors: Jonata Tyska Carvalho, Stefano Nolfi\nPublished: 2022-08-04T17:58:15Z\narXiv: http://arxiv.org/abs/2208.02809v2\n\nAbstract:\nExposing an Evolutionary Algorithm that is used to evolve robot controllers to variable conditions is necessary to obtain solutions which are robust and can cross the reality gap. However, we do not yet have methods for analyzing and understanding the impact of the varying morphological conditions which impact the evolutionary process, and therefore for choosing suitable variation ranges. By morphological conditions, we refer to the starting state of the robot, and to variations in its sensor readings during operation due to noise. In this article, we introduce a method that permits us to measure the impact of these morphological variations and we analyze the relation between the amplitude of variations, the modality with which they are introduced, and the performance and robustness of evolving agents. Our results demonstrate that (i) the evolutionary algorithm can tolerate morphological variations which have a very high impact, (ii) variations affecting the actions of the agent are tolerated much better than variations affecting the initial state of the agent or of the environment, and (iii) improving the accuracy of the fitness measure through multiple evaluations is not always useful. Moreover, our results show that morphological variations permit generating solutions which perform better both in varying and non-varying conditions.",
+  "fetched_at": "2026-07-13T01:42:52+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Fair-GPTQ: Bias-Aware Quantization for Large Language Models",
+  "url": "http://arxiv.org/abs/2509.15206v3",
+  "why": "arXiv match: post-training quantization large language models GPTQ AWQ",
+  "meta": {
+    "authors": [
+      "Irina Proskurina",
+      "Guillaume Metzler",
+      "Julien Velcin"
+    ],
+    "published": "2025-09-18T17:56:16Z"
+  },
+  "content": "Fair-GPTQ: Bias-Aware Quantization for Large Language Models\n\nAuthors: Irina Proskurina, Guillaume Metzler, Julien Velcin\nPublished: 2025-09-18T17:56:16Z\narXiv: http://arxiv.org/abs/2509.15206v3\n\nAbstract:\nThe high memory demands of generative language models have drawn attention to quantization, which reduces memory usage by mapping model weights to lower-precision integers. However, recent empirical studies show that, while efficient, quantization can increase the likelihood of generating biased outputs and degrade performance on fairness benchmarks. In this work, we draw new links between quantization and model fairness by adding explicit group-fairness constraints to the quantization objective and introduce Fair-GPTQ, the first quantization method explicitly designed to reduce unfairness in large language models. The added constraints guide the learning of the rounding operation toward less-biased text generation for protected groups. Specifically, we focus on stereotype generation involving occupational bias and discriminatory language spanning gender, race, and religion. Fair-GPTQ has minimal impact on performance, preserving at least 90% of baseline accuracy on zero-shot benchmarks, reduces unfairness relative to a half-precision model, and retains the memory and speed benefits of 4-bit quantization.",
+  "fetched_at": "2026-07-13T01:41:19+00:00"
+}

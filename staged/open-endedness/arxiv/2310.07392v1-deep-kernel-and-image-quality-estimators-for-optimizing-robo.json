@@ -1,0 +1,21 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Deep Kernel and Image Quality Estimators for Optimizing Robotic Ultrasound Controller using Bayesian Optimization",
+  "url": "http://arxiv.org/abs/2310.07392v1",
+  "why": "arXiv match: quality diversity optimization robotics",
+  "meta": {
+    "authors": [
+      "Deepak Raina",
+      "SH Chandrashekhara",
+      "Richard Voyles",
+      "Juan Wachs",
+      "Subir Kumar Saha"
+    ],
+    "published": "2023-10-11T11:20:35Z"
+  },
+  "content": "Deep Kernel and Image Quality Estimators for Optimizing Robotic Ultrasound Controller using Bayesian Optimization\n\nAuthors: Deepak Raina, SH Chandrashekhara, Richard Voyles, Juan Wachs, Subir Kumar Saha\nPublished: 2023-10-11T11:20:35Z\narXiv: http://arxiv.org/abs/2310.07392v1\n\nAbstract:\nUltrasound is a commonly used medical imaging modality that requires expert sonographers to manually maneuver the ultrasound probe based on the acquired image. Autonomous Robotic Ultrasound (A-RUS) is an appealing alternative to this manual procedure in order to reduce sonographers' workload. The key challenge to A-RUS is optimizing the ultrasound image quality for the region of interest across different patients. This requires knowledge of anatomy, recognition of error sources and precise probe position, orientation and pressure. Sample efficiency is important while optimizing these parameters associated with the robotized probe controller. Bayesian Optimization (BO), a sample-efficient optimization framework, has recently been applied to optimize the 2D motion of the probe. Nevertheless, further improvements are needed to improve the sample efficiency for high-dimensional control of the probe. We aim to overcome this problem by using a neural network to learn a low-dimensional kernel in BO, termed as Deep Kernel (DK). The neural network of DK is trained using probe and image data acquired during the procedure. The two image quality estimators are proposed that use a deep convolution neural network and provide real-time feedback to the BO. We validated our framework using these two feedback functions on three urinary bladder phantoms. We obtained over 50% increase in sample efficiency for 6D control of the robotized probe. Furthermore, our results indicate that this performance enhancement in BO is independent of the specific training dataset, demonstrating inter-patient adaptability.",
+  "fetched_at": "2026-07-13T01:43:13+00:00"
+}

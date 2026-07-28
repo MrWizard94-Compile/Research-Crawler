@@ -1,0 +1,18 @@
+{
+  "source": "github",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "Python",
+  "title": "uber-research/poet",
+  "url": "https://github.com/uber-research/poet",
+  "why": "POET: paired open-ended trailblazer (Wang/Stanley) open-endedness",
+  "ref": "master/README.md",
+  "meta": {
+    "stars": 265,
+    "description": "Paired Open-Ended Trailblazer (POET) and Enhanced POET",
+    "language": "Python",
+    "topics": []
+  },
+  "content": "# POET and Enhanced POET\n\nThis repo contains implementation of the POET and Enhanced POET algorithms described in:\n\n[Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions](https://arxiv.org/abs/1901.01753)\n\n[Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions](https://arxiv.org/abs/2003.08536)\n\nAn article on Uber Engineering Blog describing POET can be found [here](https://eng.uber.com/poet-open-ended-deep-learning/).\n\n## Requirements\n\n- [Fiber](https://uber.github.io/fiber/)\n- [NEAT-Python](https://neat-python.readthedocs.io/en/latest/installation.html)\n- [OpenAI Gym](https://github.com/openai/gym)\n\n## Run Enhanced POET locally\n\nTo run locally on a multicore machine\n\n```./run_poet_local.sh final_test```\n\n## Run Enhanced POET on a Kubernetes cluster\n\nFollow instructions [here](https://uber.github.io/fiber/advanced/#working-with-persistent-storage) to create a persistent volume.\n\nThen run the following command:\n\n```./run_poet_remote.sh final_test```\n\nTo get the training logs:\n\n```fiber cp nfs:/persistent/logs/final_test .```\n```fiber cp nfs:/persistent/logs/poet_final_test poet_final_test```\n\n## Run Enhanced POET on a computer cluster\n\nTo containerize and run the code on a computer cluster (e.g., Google Kubernetes Engine on Google Cloud), please refer to [Fiber Documentation](https://uber.github.io/fiber/getting-started/#containerize-your-program).\n\n## Run original POET\n\nUse this [legacy branch](https://github.com/uber-research/poet/tree/original_poet)\n",
+  "fetched_at": "2026-07-13T01:42:28+00:00"
+}

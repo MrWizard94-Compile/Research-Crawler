@@ -1,0 +1,20 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Discovering equations from data: symbolic regression in dynamical systems",
+  "url": "http://arxiv.org/abs/2508.20257v2",
+  "why": "arXiv match: symbolic regression discovering equations from data",
+  "meta": {
+    "authors": [
+      "Beatriz R. Brum",
+      "Luiza Lober",
+      "Isolde Previdelli",
+      "Francisco A. Rodrigues"
+    ],
+    "published": "2025-08-27T20:30:09Z"
+  },
+  "content": "Discovering equations from data: symbolic regression in dynamical systems\n\nAuthors: Beatriz R. Brum, Luiza Lober, Isolde Previdelli, Francisco A. Rodrigues\nPublished: 2025-08-27T20:30:09Z\narXiv: http://arxiv.org/abs/2508.20257v2\n\nAbstract:\nThe process of discovering equations from data lies at the heart of physics and in many other areas of research, including mathematical ecology and epidemiology. Recently, machine learning methods known as symbolic regression emerged as a way to automate this task. This study presents an overview of the current literature on symbolic regression, while also comparing the efficiency of five state-of-the-art methods in recovering the governing equations from nine processes, including chaotic dynamics and epidemic models. Benchmark results demonstrate the PySR method as the most suitable for inferring equations, with some estimates being indistinguishable from the original analytical forms. These results highlight the potential of symbolic regression as a robust tool for inferring and modeling real-world phenomena.",
+  "fetched_at": "2026-07-13T01:43:04+00:00"
+}

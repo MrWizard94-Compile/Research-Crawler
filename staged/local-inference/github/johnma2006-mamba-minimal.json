@@ -1,0 +1,18 @@
+{
+  "source": "github",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "Python",
+  "title": "johnma2006/mamba-minimal",
+  "url": "https://github.com/johnma2006/mamba-minimal",
+  "why": "minimal readable Mamba — study implementation",
+  "ref": "master/README.md",
+  "meta": {
+    "stars": 2962,
+    "description": "Simple, minimal implementation of the Mamba SSM in one file of PyTorch.",
+    "language": "Python",
+    "topics": []
+  },
+  "content": "## mamba-minimal\n\nSimple, minimal implementation of Mamba in one file of PyTorch.\n\nFeaturing:\n* Equivalent numerical output as official implementation for both forward and backward pass\n* Simplified, readable, annotated code\n\nDoes NOT include:\n* Speed. The official implementation is heavily optimized, and these optimizations are core contributions of the Mamba paper. I kept most implementations simple for readability.\n* Proper parameter initialization (though this could be added without sacrificing readability)\n\n## Demo\n\nSee [demo.ipynb](demo.ipynb) for examples of prompt completions.\n\n```python\nfrom model import Mamba\nfrom transformers import AutoTokenizer\n\nmodel = Mamba.from_pretrained('state-spaces/mamba-370m')\ntokenizer = AutoTokenizer.from_pretrained('EleutherAI/gpt-neox-20b')\n\ngenerate(model, tokenizer, 'Mamba is the')\n```\n> Mamba is the world's longest venomous snake with an estimated length of over 150 m. With such a large size and a venomous bite, Mamba kills by stabbing the victim (which is more painful and less effective than a single stab of the bite)\n\n150 meters... 🫢 scary!\n\n## References\n\nThe Mamba architecture was introduced in [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) by [Albert Gu](https://twitter.com/_albertgu?lang=en) and [Tri Dao](https://twitter.com/tri_dao?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).\n\nThe official implementation is here: https://github.com/state-spaces/mamba/tree/main\n",
+  "fetched_at": "2026-07-13T01:40:41+00:00"
+}

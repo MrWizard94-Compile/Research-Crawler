@@ -1,0 +1,27 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Accelerating Mixture-of-Experts Inference by Hiding Offloading Latency with Speculative Decoding",
+  "url": "http://arxiv.org/abs/2508.21706v2",
+  "why": "arXiv match: mixture of experts inference offloading consumer GPU",
+  "meta": {
+    "authors": [
+      "Zhibin Wang",
+      "Zhonghui Zhang",
+      "Yuhang Zhou",
+      "Zibo Wang",
+      "Mo Zhou",
+      "Peng Jiang",
+      "Weilin Cai",
+      "Chengying Huan",
+      "Rong Gu",
+      "Sheng Zhong",
+      "Chen Tian"
+    ],
+    "published": "2025-08-29T15:25:05Z"
+  },
+  "content": "Accelerating Mixture-of-Experts Inference by Hiding Offloading Latency with Speculative Decoding\n\nAuthors: Zhibin Wang, Zhonghui Zhang, Yuhang Zhou, Zibo Wang, Mo Zhou, Peng Jiang, Weilin Cai, Chengying Huan, Rong Gu, Sheng Zhong, Chen Tian\nPublished: 2025-08-29T15:25:05Z\narXiv: http://arxiv.org/abs/2508.21706v2\n\nAbstract:\nRecent advancements in Mixture of Experts (MoE) models have significantly increased their parameter scale as well as model performance. Extensive offloading techniques have been proposed to address the GPU memory limitations of MoE inference. However, due to the I/O bottleneck and sparse computation of MoE models, existing offloading techniques still suffer from low hardware utilization. To fully utilize the hardware resources, we propose SpecMoEOff, which employs the speculative decoding technique to enlarge the workload of each expert. SpecMoEOff orchestrates the GPU and CPU by both theoretical and empirical roofline analysis. In addition, we develop a dedicated CPU chunked attention verification kernel to fit the speculative decoding in offloading scenarios as well as minimizing the additional overhead led by draft models. SpecMoEOff further integrates an optimizer to automatically tune the hyperparameters of speculative decoding under given hardware and workload. Experimental results show that SpecMoEOff achieves up to 2.5x decode throughput improvement over the state-of-the-art MoE offloading techniques.",
+  "fetched_at": "2026-07-13T01:41:15+00:00"
+}

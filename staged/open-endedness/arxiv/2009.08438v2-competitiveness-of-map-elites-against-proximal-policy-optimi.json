@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Competitiveness of MAP-Elites against Proximal Policy Optimization on locomotion tasks in deterministic simulations",
+  "url": "http://arxiv.org/abs/2009.08438v2",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Szymon Brych",
+      "Antoine Cully"
+    ],
+    "published": "2020-09-17T17:41:46Z"
+  },
+  "content": "Competitiveness of MAP-Elites against Proximal Policy Optimization on locomotion tasks in deterministic simulations\n\nAuthors: Szymon Brych, Antoine Cully\nPublished: 2020-09-17T17:41:46Z\narXiv: http://arxiv.org/abs/2009.08438v2\n\nAbstract:\nThe increasing importance of robots and automation creates a demand for learnable controllers which can be obtained through various approaches such as Evolutionary Algorithms (EAs) or Reinforcement Learning (RL). Unfortunately, these two families of algorithms have mainly developed independently and there are only a few works comparing modern EAs with deep RL algorithms. We show that Multidimensional Archive of Phenotypic Elites (MAP-Elites), which is a modern EA, can deliver better-performing solutions than one of the state-of-the-art RL methods, Proximal Policy Optimization (PPO) in the generation of locomotion controllers for a simulated hexapod robot. Additionally, extensive hyper-parameter tuning shows that MAP-Elites displays greater robustness across seeds and hyper-parameter sets. Generally, this paper demonstrates that EAs combined with modern computational resources display promising characteristics and have the potential to contribute to the state-of-the-art in controller learning.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

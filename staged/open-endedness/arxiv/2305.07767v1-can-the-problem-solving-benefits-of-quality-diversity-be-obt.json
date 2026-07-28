@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Can the Problem-Solving Benefits of Quality Diversity Be Obtained Without Explicit Diversity Maintenance?",
+  "url": "http://arxiv.org/abs/2305.07767v1",
+  "why": "arXiv match: MAP-Elites quality diversity illuminating search space",
+  "meta": {
+    "authors": [
+      "Ryan Boldi",
+      "Lee Spector"
+    ],
+    "published": "2023-05-12T21:24:04Z"
+  },
+  "content": "Can the Problem-Solving Benefits of Quality Diversity Be Obtained Without Explicit Diversity Maintenance?\n\nAuthors: Ryan Boldi, Lee Spector\nPublished: 2023-05-12T21:24:04Z\narXiv: http://arxiv.org/abs/2305.07767v1\n\nAbstract:\nWhen using Quality Diversity (QD) optimization to solve hard exploration or deceptive search problems, we assume that diversity is extrinsically valuable. This means that diversity is important to help us reach an objective, but is not an objective in itself. Often, in these domains, practitioners benchmark their QD algorithms against single objective optimization frameworks. In this paper, we argue that the correct comparison should be made to \\emph{multi-objective} optimization frameworks. This is because single objective optimization frameworks rely on the aggregation of sub-objectives, which could result in decreased information that is crucial for maintaining diverse populations automatically. In order to facilitate a fair comparison between quality diversity and multi-objective optimization, we present a method that utilizes dimensionality reduction to automatically determine a set of behavioral descriptors for an individual, as well as a set of objectives for an individual to solve. Using the former, one can generate solutions using standard quality diversity optimization techniques, and using the latter, one can generate solutions using standard multi-objective optimization techniques. This allows for a level comparison between these two classes of algorithms, without requiring domain and algorithm specific modifications to facilitate a comparison.",
+  "fetched_at": "2026-07-13T01:42:56+00:00"
+}

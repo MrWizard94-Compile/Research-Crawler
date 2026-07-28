@@ -1,0 +1,22 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Benchmarking Quality-Diversity Algorithms on Neuroevolution for Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2211.02193v1",
+  "why": "arXiv match: quality diversity optimization robotics",
+  "meta": {
+    "authors": [
+      "Manon Flageat",
+      "Bryan Lim",
+      "Luca Grillotti",
+      "Maxime Allard",
+      "Simón C. Smith",
+      "Antoine Cully"
+    ],
+    "published": "2022-11-04T00:14:42Z"
+  },
+  "content": "Benchmarking Quality-Diversity Algorithms on Neuroevolution for Reinforcement Learning\n\nAuthors: Manon Flageat, Bryan Lim, Luca Grillotti, Maxime Allard, Simón C. Smith, Antoine Cully\nPublished: 2022-11-04T00:14:42Z\narXiv: http://arxiv.org/abs/2211.02193v1\n\nAbstract:\nWe present a Quality-Diversity benchmark suite for Deep Neuroevolution in Reinforcement Learning domains for robot control. The suite includes the definition of tasks, environments, behavioral descriptors, and fitness. We specify different benchmarks based on the complexity of both the task and the agent controlled by a deep neural network. The benchmark uses standard Quality-Diversity metrics, including coverage, QD-score, maximum fitness, and an archive profile metric to quantify the relation between coverage and fitness. We also present how to quantify the robustness of the solutions with respect to environmental stochasticity by introducing corrected versions of the same metrics. We believe that our benchmark is a valuable tool for the community to compare and improve their findings. The source code is available online: https://github.com/adaptive-intelligent-robotics/QDax",
+  "fetched_at": "2026-07-13T01:43:13+00:00"
+}

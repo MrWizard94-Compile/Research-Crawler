@@ -1,0 +1,18 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "A Survey in Mathematical Language Processing",
+  "url": "http://arxiv.org/abs/2205.15231v2",
+  "why": "arXiv match: large language models mathematical discovery evolutionary FunSearch",
+  "meta": {
+    "authors": [
+      "Jordan Meadows",
+      "Andre Freitas"
+    ],
+    "published": "2022-05-30T16:41:58Z"
+  },
+  "content": "A Survey in Mathematical Language Processing\n\nAuthors: Jordan Meadows, Andre Freitas\nPublished: 2022-05-30T16:41:58Z\narXiv: http://arxiv.org/abs/2205.15231v2\n\nAbstract:\nInformal mathematical text underpins real-world quantitative reasoning and communication. Developing sophisticated methods of retrieval and abstraction from this dual modality is crucial in the pursuit of the vision of automating discovery in quantitative science and mathematics. We track the development of informal mathematical language processing approaches across five strategic sub-areas in recent years, highlighting the prevailing successful methodological elements along with existing limitations.",
+  "fetched_at": "2026-07-13T01:43:00+00:00"
+}

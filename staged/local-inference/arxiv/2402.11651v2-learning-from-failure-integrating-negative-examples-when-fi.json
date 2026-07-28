@@ -1,0 +1,21 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents",
+  "url": "http://arxiv.org/abs/2402.11651v2",
+  "why": "arXiv match: 1-bit ternary quantization large language model",
+  "meta": {
+    "authors": [
+      "Renxi Wang",
+      "Haonan Li",
+      "Xudong Han",
+      "Yixuan Zhang",
+      "Timothy Baldwin"
+    ],
+    "published": "2024-02-18T17:10:07Z"
+  },
+  "content": "Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents\n\nAuthors: Renxi Wang, Haonan Li, Xudong Han, Yixuan Zhang, Timothy Baldwin\nPublished: 2024-02-18T17:10:07Z\narXiv: http://arxiv.org/abs/2402.11651v2\n\nAbstract:\nLarge language models (LLMs) have achieved success in acting as agents, which interact with environments through tools such as search engines. However, LLMs are optimized for language generation instead of tool use during training or alignment, limiting their effectiveness as agents. To resolve this problem, previous work has first collected interaction trajectories between LLMs and environments, using only trajectories that successfully finished the task to fine-tune smaller models, making fine-tuning data scarce and acquiring it both difficult and costly. Discarding failed trajectories also leads to significant wastage of data and resources and limits the possible optimization paths during fine-tuning. In this paper, we argue that unsuccessful trajectories offer valuable insights, and LLMs can learn from these trajectories through appropriate quality control and fine-tuning strategies. By simply adding a prefix or suffix that tells the model whether to generate a successful trajectory during training, we improve model performance by a large margin on mathematical reasoning, multi-hop question answering, and strategic question answering tasks. We further analyze the inference results and find that our method provides a better trade-off between valuable information and errors in unsuccessful trajectories. To our knowledge, we are the first to demonstrate the value of negative trajectories and their application in agent-tunning scenarios. Our findings offer guidance for developing better agent-tuning methods and low-resource data usage techniques.",
+  "fetched_at": "2026-07-13T01:41:41+00:00"
+}

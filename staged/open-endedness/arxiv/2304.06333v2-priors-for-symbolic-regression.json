@@ -1,0 +1,19 @@
+{
+  "source": "arxiv",
+  "focus": "open-endedness",
+  "category": "research-open-endedness",
+  "language": "All",
+  "title": "Priors for symbolic regression",
+  "url": "http://arxiv.org/abs/2304.06333v2",
+  "why": "arXiv match: symbolic regression discovering equations from data",
+  "meta": {
+    "authors": [
+      "Deaglan J. Bartlett",
+      "Harry Desmond",
+      "Pedro G. Ferreira"
+    ],
+    "published": "2023-04-13T08:29:16Z"
+  },
+  "content": "Priors for symbolic regression\n\nAuthors: Deaglan J. Bartlett, Harry Desmond, Pedro G. Ferreira\nPublished: 2023-04-13T08:29:16Z\narXiv: http://arxiv.org/abs/2304.06333v2\n\nAbstract:\nWhen choosing between competing symbolic models for a data set, a human will naturally prefer the \"simpler\" expression or the one which more closely resembles equations previously seen in a similar context. This suggests a non-uniform prior on functions, which is, however, rarely considered within a symbolic regression (SR) framework. In this paper we develop methods to incorporate detailed prior information on both functions and their parameters into SR. Our prior on the structure of a function is based on a $n$-gram language model, which is sensitive to the arrangement of operators relative to one another in addition to the frequency of occurrence of each operator. We also develop a formalism based on the Fractional Bayes Factor to treat numerical parameter priors in such a way that models may be fairly compared though the Bayesian evidence, and explicitly compare Bayesian, Minimum Description Length and heuristic methods for model selection. We demonstrate the performance of our priors relative to literature standards on benchmarks and a real-world dataset from the field of cosmology.",
+  "fetched_at": "2026-07-13T01:43:04+00:00"
+}

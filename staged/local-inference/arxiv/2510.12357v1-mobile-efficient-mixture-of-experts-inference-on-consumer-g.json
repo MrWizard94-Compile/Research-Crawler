@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "focus": "local-inference",
+  "category": "research-local-inference",
+  "language": "All",
+  "title": "MoBiLE: Efficient Mixture-of-Experts Inference on Consumer GPU with Mixture of Big Little Experts",
+  "url": "http://arxiv.org/abs/2510.12357v1",
+  "why": "arXiv match: mixture of experts inference offloading consumer GPU",
+  "meta": {
+    "authors": [
+      "Yushu Zhao",
+      "Yubin Qin",
+      "Yang Wang",
+      "Xiaolong Yang",
+      "Huiming Han",
+      "Shaojun Wei",
+      "Yang Hu",
+      "Shouyi Yin"
+    ],
+    "published": "2025-10-14T10:22:44Z"
+  },
+  "content": "MoBiLE: Efficient Mixture-of-Experts Inference on Consumer GPU with Mixture of Big Little Experts\n\nAuthors: Yushu Zhao, Yubin Qin, Yang Wang, Xiaolong Yang, Huiming Han, Shaojun Wei, Yang Hu, Shouyi Yin\nPublished: 2025-10-14T10:22:44Z\narXiv: http://arxiv.org/abs/2510.12357v1\n\nAbstract:\nMixture-of-Experts (MoE) models have recently demonstrated exceptional performance across a diverse range of applications. The principle of sparse activation in MoE models facilitates an offloading strategy, wherein active experts are maintained in GPU HBM, while inactive experts are stored in CPU DRAM. The efficacy of this approach, however, is fundamentally constrained by the limited bandwidth of the CPU-GPU interconnect. To mitigate this bottleneck, existing approaches have employed prefetching to accelerate MoE inference. These methods attempt to predict and prefetch the required experts using specially trained modules. Nevertheless, such techniques are often encumbered by significant training overhead and have shown diminished effectiveness on recent MoE models with fine-grained expert segmentation.\n  In this paper, we propose MoBiLE, a plug-and-play offloading-based MoE inference framework with \\textit{mixture of big-little experts}. It reduces the number of experts for unimportant tokens to half for acceleration while maintaining full experts for important tokens to guarantee model quality. Further, a dedicated fallback and prefetching mechanism is designed for switching between little and big experts to improve memory efficiency. We evaluate MoBiLE on four typical modern MoE architectures and challenging generative tasks. Our results show that MoBiLE achieves a speedup of 1.60x to 1.72x compared to the baseline on a consumer GPU system, with negligible degradation in accuracy.",
+  "fetched_at": "2026-07-13T01:41:15+00:00"
+}
