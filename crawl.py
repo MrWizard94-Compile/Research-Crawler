@@ -276,24 +276,45 @@ def save_manifest(done: set[str]) -> None:
 
 
 def chunk_text(text: str, max_bytes: int) -> list[str]:
-    """Split on paragraph boundaries so each chunk stays under the server's UTF-8 byte cap."""
+    """Split text losslessly within a positive UTF-8 byte cap, preferring paragraphs.
+
+    A single code point wider than the cap cannot be represented and is rejected
+    instead of silently dropping bytes. Concatenating returned chunks recreates
+    the original text exactly, including paragraph separators.
+    """
+    if max_bytes <= 0:
+        raise ValueError("max_bytes must be positive")
     if len(text.encode("utf-8")) <= max_bytes:
         return [text]
-    chunks, cur = [], ""
-    for para in text.split("\n\n"):
-        candidate = (cur + "\n\n" + para) if cur else para
-        if len(candidate.encode("utf-8")) > max_bytes and cur:
-            chunks.append(cur)
-            cur = para
-        else:
-            cur = candidate
-        # a single monster paragraph: hard-split by bytes
-        while len(cur.encode("utf-8")) > max_bytes:
-            b = cur.encode("utf-8")[:max_bytes]
-            chunks.append(b.decode("utf-8", "ignore"))
-            cur = cur[len(chunks[-1]):]
-    if cur:
-        chunks.append(cur)
+    chunks: list[str] = []
+    current: list[str] = []
+    current_bytes = 0
+    paragraphs = text.split("\n\n")
+    segments = [paragraphs[0], *("\n\n" + part for part in paragraphs[1:])]
+    for segment in segments:
+        if not segment:
+            continue
+        segment_bytes = len(segment.encode("utf-8"))
+        if current and current_bytes + segment_bytes > max_bytes:
+            chunks.append("".join(current))
+            current = []
+            current_bytes = 0
+        if segment_bytes <= max_bytes:
+            current.append(segment)
+            current_bytes += segment_bytes
+            continue
+        for char in segment:
+            char_bytes = len(char.encode("utf-8"))
+            if char_bytes > max_bytes:
+                raise ValueError("max_bytes is smaller than a UTF-8 code point")
+            if current_bytes + char_bytes > max_bytes:
+                chunks.append("".join(current))
+                current = []
+                current_bytes = 0
+            current.append(char)
+            current_bytes += char_bytes
+    if current:
+        chunks.append("".join(current))
     return chunks
 
 
