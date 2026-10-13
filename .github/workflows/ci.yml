@@ -1,0 +1,44 @@
+name: Research-Crawler offline checks and Constitution gate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out Research-Crawler
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: project
+          persist-credentials: false
+
+      - name: Check out accepted WPAI Constitution
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: MrWizard94-Compile/Agents-Constitution
+          ref: 5d5aa0c79a9bcad095f58ebe315bf44adc94fbff
+          path: constitution
+          persist-credentials: false
+
+      - name: Validate canonical source and its tests
+        working-directory: constitution
+        run: |
+          python3 tools/validate-source.py
+          python3 -m unittest discover -s tests -v
+
+      - name: Audit project adoption
+        run: python3 constitution/tools/check-adoption.py project
+
+      - name: Run offline crawler behavior and read-only status
+        working-directory: project
+        run: |
+          python3 --version
+          python3 -W error -m unittest discover -s tests -v
+          python3 -W error crawl.py status
